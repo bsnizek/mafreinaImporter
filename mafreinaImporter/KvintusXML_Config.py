@@ -68,21 +68,6 @@ n = Normalizer()
 
 def getRidOfSpecialCharacters(s):
     return n.normalize(s)
-
-##def getRidOfSpecialCharacters(string):
-##    s = ""
-##    d = {}
-##    d["ü"] = "u"
-##    d["ö"] = "o"
-##    d["Ü"] = "U"
-##    d["Ö"] = "O"
-##    d["."] = ""
-##    for ch in string:
-##        if ch in d.keys():
-##            s += d[ch]
-##        else:
-##            s += ch
-##    return s
             
 def genericAgentTypeName(name):
     if name in (2, "Easy hiker", "Hiker easy"):
