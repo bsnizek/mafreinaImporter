@@ -3,6 +3,7 @@
 # Basic variables and functions
 # HSP, June 2012
 from dbfpy import dbf
+import Normalizer
 
 delim = ";"
 indent1 = ""
@@ -61,6 +62,12 @@ inWPFileName = path + "waypointstoaim.csv"
 outStateFileName = path + modelName + "States.xml"
 outAgentFileName = path + modelName + "Agents.xml"
 outWayPointFileName = path + modelName + "WayPoints.xml"
+
+
+n = Normalizer()
+
+def getRidOfSpecialCharacters(s):
+    return n.normalize(s)
 
 ##def getRidOfSpecialCharacters(string):
 ##    s = ""
