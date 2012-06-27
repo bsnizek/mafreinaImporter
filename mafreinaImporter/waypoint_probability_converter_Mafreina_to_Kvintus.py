@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 # Creating KVINTUS Instatiationfunction: entrypoint -> waypoint probabilities
 # from MAFEINA text file
 # HSP, June 2012
@@ -191,6 +193,7 @@ entryPointListAll = {}
 entryPointID = ""
 countEntryPoints = 1
 countFunctions = 1
+entryPointName = "TODO"
 
 #Reading in-file (waypoint distribution)
 while not EOF:

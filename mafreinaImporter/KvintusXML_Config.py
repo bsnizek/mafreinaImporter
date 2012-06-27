@@ -3,6 +3,7 @@
 # Basic variables and functions
 # HSP, June 2012
 from dbfpy import dbf
+
 import Normalizer
 
 delim = ";"
