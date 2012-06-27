@@ -1,0 +1,136 @@
+;;;time;;;;;;;;;;;;;
+Entry point;Entry name;Agent type;0;2;4;6;8;10;12;14;16;18;20;22;Total;Anzahl Personen
+10106;Fop da Buffalora;Hiker easy;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+10106;Fop da Buffalora;Hiker advanced;0;0;0;0;0;20;30;30;20;0;0;0;100;30
+10106;Fop da Buffalora;Biker easy;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+10106;Fop da Buffalora;Biker advanced;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+;;;;;;;;;;;;;;;;
+10101;Fuorcla del Gal;Hiker easy;0;0;0;0;0;0;0;0;0;0;0;0;;0
+10101;Fuorcla del Gal;Hiker advanced;;;;10;20;30;0;30;10;;;;;10
+10101;Fuorcla del Gal;Biker easy;;;;;;;;;;;;;;0
+10101;Fuorcla del Gal;Biker advanced;;;;;30;70;;;;;;;;5
+;;;;;;;;;;;;;;;;
+10102;Passo Val Mora;Hiker easy;;;;;;;;;;;;;;0
+10102;Passo Val Mora;Hiker advanced;;;;;10;30;20;30;10;;;;;10
+10102;Passo Val Mora;Biker easy;;;;;;;;;;;;;;0
+10102;Passo Val Mora;Biker advanced;;;;;5;10;30;30;20;5;;;;100
+;;;;;;;;;;;;;;;;
+10221;Umbrailpass;Hiker easy;;;;;;50;0;50;;;;;;16
+10221;Umbrailpass;Hiker advanced;;;;;30;50;20;;;;;;;20
+10221;Umbrailpass;Biker easy;;;;;;30;40;30;;;;;;8
+10221;Umbrailpass;Biker advanced;;;;;10;20;30;20;15;5;;;;20
+;;;;;;;;;;;;;;;;
+10218;Platatschas;Hiker easy;;;;;10;30;30;20;10;;;;;16
+10218;Platatschas;Hiker advanced;;;;;50;50;;;;;;;;4
+10218;Platatschas;Biker easy;;;;;;;;;;;;;;0
+10218;Platatschas;Biker advanced;;;;;;;;;;;;;;0
+;;;;;;;;;;;;;;;;
+10219;Blockhütte;Hiker easy;;;;;10;30;30;20;10;;;;;8
+10219;Blockhütte;Hiker advanced;;;;;50;50;;;;;;;;2
+10219;Blockhütte;Biker easy;;;;;;;;;;;;;;0
+10219;Blockhütte;Biker advanced;;;;;;;;;;;;;;0
+;;;;;;;;;;;;;;;;
+10217;Puntweil;Hiker easy;;;;;20;20;20;20;20;;;;;20
+10217;Puntweil;Hiker advanced;;;;20;20;10;0;20;20;10;;;;8
+10217;Puntweil;Biker easy;;;;;10;20;20;20;10;20;;;;30
+10217;Puntweil;Biker advanced;;;;10;30;10;10;10;20;10;;;;40
+;;;;;;;;;;;;;;;;
+10103;Tamangur Dadora;Hiker easy;;;;;;;;;;;;;;0
+10103;Tamangur Dadora;Hiker advanced;;;;;20;40;30;10;;;;;;30
+10103;Tamangur Dadora;Biker easy;;;;;;;;;;;;;;0
+10103;Tamangur Dadora;Biker advanced;;;;10;20;30;20;20;;;;;;20
+;;;;;;;;;;;;;;;;
+10104;Tamangur Dadora;Hiker easy;;;;;;;;;;;;;;0
+10104;Tamangur Dadora;Hiker advanced;;;;;20;40;30;10;;;;;;20
+10104;Tamangur Dadora;Biker easy;;;;;;;;;;;;;;0
+10104;Tamangur Dadora;Biker advanced;;;;10;20;30;20;20;;;;;;20
+;;;;;;;;;;;;;;;;
+10201;Buffalora;Hiker easy;;;;;20;30;30;10;10;;;;;20
+10201;Buffalora;Hiker advanced;;;;20;30;30;20;;;;;;;40
+10201;Buffalora;Biker easy;;;;;20;20;20;20;20;;;;;10
+10201;Buffalora;Biker advanced;;;;10;20;30;30;10;;;;;;30
+;;;;;;;;;;;;;;;;
+10202;Süsom Give;Hiker easy;;;;;20;30;20;20;10;;;;;30
+10202;Süsom Give;Hiker advanced;;;;10;30;30;20;10;;;;;;30
+10202;Süsom Give;Biker easy;;;;;10;20;30;20;20;;;;;15
+10202;Süsom Give;Biker advanced;;;;10;30;30;20;10;;;;;;10
+;;;;;;;;;;;;;;;;
+10404;Parkplatz 2078;Hiker easy;;;;;20;20;20;20;20;;;;;5
+10404;Parkplatz 2078;Hiker advanced;;;;10;20;30;20;20;;;;;;2
+10404;Parkplatz 2078;Biker easy;;;;;20;20;20;20;20;;;;;5
+10404;Parkplatz 2078;Biker advanced;;;;;;;;;;;;;;0
+;;;;;;;;;;;;;;;;
+10405;Alp da Munt;Hiker easy;;;;;20;20;20;20;20;;;;;5
+10405;Alp da Munt;Hiker advanced;;;;10;20;30;20;20;;;;;;2
+10405;Alp da Munt;Biker easy;;;;;20;20;20;20;20;;;;;5
+10405;Alp da Munt;Biker advanced;;;;;;;;;;;;;;2
+;;;;;;;;;;;;;;;;
+10203;Aintasom Tschierv;Hiker easy;;;;;10;20;20;30;20;;;;;30
+10203;Aintasom Tschierv;Hiker advanced;;;;10;30;20;20;20;;;;;;5
+10203;Aintasom Tschierv;Biker easy;;;;;10;20;20;30;20;;;;;20
+10203;Aintasom Tschierv;Biker advanced;;;;;;;;;;;;;;0
+;;;;;;;;;;;;;;;;
+10501;Tschierv;Hiker easy;;;;;10;20;20;30;20;;;;;20
+10501;Tschierv;Hiker advanced;;;;10;30;20;20;20;;;;;;5
+10501;Tschierv;Biker easy;;;;;10;20;20;30;20;;;;;20
+10501;Tschierv;Biker advanced;;;;;;;;;;;;;;0
+;;;;;;;;;;;;;;;;
+10205;Tschierv Plaz;Hiker easy;;;;;10;20;20;30;20;;;;;40
+10205;Tschierv Plaz;Hiker advanced;;;;10;30;20;20;20;;;;;;10
+10205;Tschierv Plaz;Biker easy;;;;;10;20;20;30;20;;;;;25
+10205;Tschierv Plaz;Biker advanced;;;;20;30;30;20;;;;;;;5
+;;;;;;;;;;;;;;;;
+10503;Fuldera village;Hiker easy;;;;;10;20;20;30;20;;;;;50
+10503;Fuldera village;Hiker advanced;;;;10;30;20;20;20;;;;;;20
+10503;Fuldera village;Biker easy;;;;;10;20;20;30;20;;;;;25
+10503;Fuldera village;Biker advanced;;;;20;30;30;20;;;;;;;10
+;;;;;;;;;;;;;;;;
+10224;Lüsai 1656;Hiker easy;;;;;10;20;20;30;20;;;;;5
+10224;Lüsai 1656;Hiker advanced;;;;;30;30;20;20;;;;;;5
+10224;Lüsai 1656;Biker easy;;;;;10;20;20;30;20;;;;;10
+10224;Lüsai 1656;Biker advanced;;;;;40;40;20;;;;;;;5
+;;;;;;;;;;;;;;;;
+10504;Lüsai;Hiker easy;;;;;10;20;20;30;20;;;;;5
+10504;Lüsai;Hiker advanced;;;;10;30;20;20;20;;;;;;5
+10504;Lüsai;Biker easy;;;;;10;20;20;30;20;;;;;10
+10504;Lüsai;Biker advanced;;;;20;30;30;20;;;;;;;10
+;;;;;;;;;;;;;;;;
+10222;Lü;Hiker easy;;;;5;15;20;20;20;20;;;;;40
+10222;Lü;Hiker advanced;;;;10;30;20;20;20;;;;;;50
+10222;Lü;Biker easy;;;;;10;20;20;30;20;;;;;20
+10222;Lü;Biker advanced;;;;20;30;30;20;;;;;;;20
+;;;;;;;;;;;;;;;;
+10209;Furom;Hiker easy;;;;;;;;;;;;;;0
+10209;Furom;Hiker advanced;;;;20;30;30;20;;;;;;;5
+10209;Furom;Biker easy;;;;;20;20;20;20;20;;;;;5
+10209;Furom;Biker advanced;;;;20;30;30;10;10;;;;;;5
+;;;;;;;;;;;;;;;;
+10210;Valchava West;Hiker easy;;;;;10;20;20;30;20;;;;;5
+10210;Valchava West;Hiker advanced;;;;10;30;20;20;20;;;;;;15
+10210;Valchava West;Biker easy;;;;;10;20;20;30;20;;;;;10
+10210;Valchava West;Biker advanced;;;;20;30;30;20;;;;;;;10
+;;;;;;;;;;;;;;;;
+10505;Valchava village;Hiker easy;;;;5;15;20;20;20;20;;;;;50
+10505;Valchava village;Hiker advanced;;;;10;30;20;20;20;;;;;;40
+10505;Valchava village;Biker easy;;;;;10;20;20;30;20;;;;;20
+10505;Valchava village;Biker advanced;;;;20;30;30;20;;;;;;;20
+;;;;;;;;;;;;;;;;
+10506;Sta. Maria;Hiker easy;;;;5;15;20;20;20;20;;;;;60
+10506;Sta. Maria;Hiker advanced;;;;10;30;20;20;20;;;;;;50
+10506;Sta. Maria;Biker easy;;;;;10;20;20;30;20;;;;;30
+10506;Sta. Maria;Biker advanced;;;;20;30;30;20;;;;;;;30
+;;;;;;;;;;;;;;;;
+10213;Sielva;Hiker easy;;;;;10;20;20;30;20;;;;;10
+10213;Sielva;Hiker advanced;;;;10;30;20;20;20;;;;;;20
+10213;Sielva;Biker easy;;;;;10;20;20;30;20;;;;;2
+10213;Sielva;Biker advanced;;;;20;30;30;20;;;;;;;2
+;;;;;;;;;;;;;;;;
+10214;Müstair Süd;Hiker easy;;;;;10;20;20;30;20;;;;;20
+10214;Müstair Süd;Hiker advanced;;;;10;30;20;20;20;;;;;;30
+10214;Müstair Süd;Biker easy;;;;;10;20;20;30;20;;;;;15
+10214;Müstair Süd;Biker advanced;;;;20;30;30;20;;;;;;;30
+;;;;;;;;;;;;;;;;
+10507;Müstair;Hiker easy;;;;5;15;20;20;20;20;;;;;30
+10507;Müstair;Hiker advanced;;;;10;30;20;20;20;;;;;;40
+10507;Müstair;Biker easy;;;;;10;20;20;30;20;;;;;10
+10507;Müstair;Biker advanced;;;;20;30;30;20;;;;;;;20

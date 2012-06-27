@@ -1,0 +1,432 @@
+Way point probabilities:;;;;;
+;;;;;
+;;;;;
+10106;Fop da Buffalora;;;;
+;total;0;0.9;0;0
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10201;Buffalora;;0.35;;
+10202;Süsom Give;;0.5;;
+11302;Mots;;0.05;;
+;;;;;
+;;;;;
+10101;Fuorcla del Gal;;;;
+;total;0;1;0;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10201;Buffalora;;0.2;;0
+10202;Süsom Give;;0.3;;0.2
+11302;Mots;;0.2;;0
+10102;Passo Val Mora;;0.2;;0.1
+11303;Döss Radond;;0.1;;0.2
+11502;Alp Champatsch;;;;0.1
+10503;Fuldera;;;;0.1
+10505;Valchava;;;;0.1
+10506;Sta. Maria;;;;0.1
+10507;Müstair;;;;0.1
+;;;;;
+;;;;;
+;;;;;
+10102;Passo Val Mora;;;;
+;total;0;1;0;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10201;Buffalora;;0.2;;0
+10202;Süsom Give;;0.3;;0.2
+11302;Mots;;0.2;;0
+10101;Fuorcla dal Gal;;0.2;;0.1
+11303;Döss Radond;;0.1;;0.2
+11502;Alp Champatsch;;;;0.05
+10503;Fuldera;;;;0
+10505;Valchava;;;;0.1
+10506;Sta. Maria;;;;0.1
+10507;Müstair;;;;0.1
+10104;Fuorcla da Pladitschöl;;;;0.1
+10221;Umbrailpass;;;;0.05
+;;;;;
+;;;;;
+10221;Umbrailpass;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+11413;Piz Umbrail;0.5;0.2;;0
+10102;Passo Val Mora;;0.1;;0.1
+11205;Lai da Rims;0.1;0.3;;0.2
+10101;Fuorcla dal Gal;;0.1;;0.1
+10503;Fuldera;;;0.1;0.1
+10505;Valchava;;;0.1;0.1
+10506;Sta. Maria;0.2;0.2;0.4;0.1
+10507;Müstair;;;0.2;0.1
+11412;Piz Cotschen;;0.1;;
+10217;Puntweil;;;0.2;0.2
+10218;Platatschas;0.1;;;
+10219;Blockhütte;0.1;;;
+;;;;;
+;;;;;
+;;;;;
+10218;Platatschas;;;;
+;total;1;1;0;0
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10503;Fuldera;0.1;;;
+10505;Valchava;0.1;;;
+10506;Sta. Maria;0.4;;;
+10507;Müstair;0.3;;;
+11412;Piz Cotschen;0.1;0.3;;
+10221;Umbrailpass;;0.3;;
+11411;Chavalatsch;;0.3;;
+11410;Piz Minschuns;;0.1;;
+;;;;;
+;;;;;
+;;;;;
+10219;Blockhütte;;;;
+;total;1;1;0;0
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10503;Fuldera;0.1;;;
+10505;Valchava;0.3;;;
+10506;Sta. Maria;0.3;;;
+10507;Müstair;0.2;;;
+11412;Piz Cotschen;0.1;0.3;;
+10221;Umbrailpass;;0.3;;
+11411;Chavalatsch;;0.3;;
+11410;Piz Minschuns;;0.1;;
+;;;;;
+;;;;;
+;;;;;
+10217;Puntweil;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10503;Fuldera;;0.1;0.2;0.1
+10505;Valchava;0.1;0.1;0.2;0.1
+10506;Sta. Maria;0.3;0.1;0.2;
+10507;Müstair;0.4;;0.2;
+11506;Terza;0.2;0.2;0.2;0.2
+11404;Uritrolaspitz;;0.1;;
+11310;Piz Terza;;;;0.3
+11405;Muntet;;0.2;;0.2
+11411;Piz Chavalatsch;;0.2;;
+10221;Umbrailpass;;;;0.1
+;;;;;
+;;;;;
+;;;;;
+10103;Tamangur Dadora;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+11308;Crappetta;0;0;0;0
+10502;Lü;0.25;0.25;0;0
+10504;Lüsai;0;0.1;0;0
+11417;Mot Radond;0;0;0;0
+11405;Muntet;0;0;0;0
+10202;Ofenpass;0.65;0.25;0.2;0.2
+11309;Pass da Costainas;0;0.05;0.2;0.2
+11403;Piz Cotschen;0;0;0;0
+11402;Piz Minschuns;0;0;0;0
+11404;Piz Terza;0;0;0;0
+11401;Piz Vallatscha;0;0;0;0
+10405;PP Minschuns;0.1;0;0;0
+11310;Sassalba;0;0;0;0
+11506;Terza;0;0;0.3;0.3
+10501;Tschierv;0;0.2;0.3;0.3
+11306;Valbella;0;0.15;0;0
+;;;;;
+;;;;;
+;;;;;
+10104;Tamangur Dadora;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+11308;Crappetta;0;0;0;0
+10502;Lü;0.25;0.25;0;0
+10504;Lüsai;0;0.1;0;0
+11417;Mot Radond;0;0;0;0
+11405;Muntet;0;0;0;0
+10202;Ofenpass;0.65;0.25;0.2;0.2
+11309;Pass da Costainas;0;0.05;0.2;0.2
+11403;Piz Cotschen;0;0;0;0
+11402;Piz Minschuns;0;0;0;0
+11404;Piz Terza;0;0;0;0
+11401;Piz Vallatscha;0;0;0;0
+10405;PP Minschuns;0.1;0;0;0
+11310;Sassalba;0;0;0;0
+11506;Terza;0;0;0.3;0.3
+10501;Tschierv;0;0.2;0.3;0.3
+11306;Valbella;0;0.15;0;0
+;;;;;
+;;;;;
+;;;;;
+10201;Buffalora;;;;
+;total;1;1;1;0.9
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10106;Fop da Buffalora;0.5;0.4;0;0
+10101;Fuorcla del Gal;0;0.1;0.1;0.3
+11302;Mots;0;0.1;0;0.3
+11407;Piz Daint;0;0.1;0;0
+10104;Tamangur Dadora;0;0;0;0.1
+11402;Minschuns;0.2;0;0;0
+11607;Alv da Munt;0.3;0.1;0.1;0
+11306;Valbella;0;0.1;0;0
+11417;Mot Radond;0;0.1;0;0
+10501;Tschierv;0;0;0.1;0
+10503;Fuldera;0;0;0.1;0
+10505;Valchava;0;0;0.1;0
+10506;Sta. Maria;0;0;0.2;0
+10507;Müstair;0;0;0.2;0
+10217;Puntweil;0;0;0.1;0.2
+;;;;;
+;;;;;
+;;;;;
+10202;Süsom Give;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10106;Fop da Buffalora;0.3;0.1;0;0
+10101;Fuorcla del Gal;0;0.1;0.1;0.3
+11302;Mots;0;0.1;0;0.3
+11407;Piz Daint;0;0.1;0;0
+10104;Tamangur Dadora;0;0.1;0;0.2
+11402;Minschuns;0.2;0;0;0
+11607;Alv da Munt;0.3;0.1;0.1;0
+11306;Valbella;0.2;0.3;0;0
+11417;Mot Radond;0;0.1;0;0
+10501;Tschierv;0;0;0.1;0
+10503;Fuldera;0;0;0.1;0
+10505;Valchava;0;0;0.1;0
+10506;Sta. Maria;0;0;0.2;0
+10507;Müstair;0;0;0.2;0
+10217;Puntweil;0;0;0.1;0.2
+;;;;;
+;;;;;
+;;;;;
+10404;Parkplatz 2078;;;;
+;total;1;1;0;0
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10106;Fop da Buffalora;0.3;0.1;;
+10101;Fuorcla del Gal;0;0.1;;
+11302;Mots;0;0.1;;
+11407;Piz Daint;0;0.1;;
+10104;Tamangur Dadora;0;0.1;;
+11402;Minschuns;0.2;0;;
+11607;Alv da Munt;0.3;0.1;;
+11306;Valbella;0.2;0.3;;
+11417;Mot Radond;0;0.1;;
+;;;;;
+;;;;;
+;;;;;
+10405;Alp da Munt;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+11309;Crappetta;;0.2;;
+11417;Mot Radond;;0.2;;0.2
+11308;Pass da Costainas;;0.1;;0.1
+11307;F. Funtatna da S-Charl;;0.3;;0.1
+11402;Minschuns;0.1;;;
+11503;Süsom Give;0.1;;0.2;
+11311;Plaun da l'Aua;0.1;;;
+10501;Tschierv;0.3;;0.3;0.1
+11501;Lü;0.4;0.1;0.3;0.1
+11604;Caristas;;0.1;0.1;0.1
+11605;Valpaschun;;;0.1;0.1
+10506;Sta. Maria;;;;0.2
+;;;;;
+;;;;;
+;;;;;
+10501;Tschierv;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;0.1;;0.4
+10202;Ofenpass;0.2;0.1;0.3;0.1
+10217;Puntweil;;;0.1;
+10222;Lü;0.5;;;
+10503;Fuldera;;;;
+10504;Lüsai;0.1;;;
+11103;Pra Schec;0.2;;;
+11309;Pass da Costainas;;0.1;;0.4
+11310;Sassalba;;0.05;;
+11401;Piz Vallatscha;;0.05;;
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.2;;
+11405;Muntet;;0.1;;
+11407;Piz Daint;;;;
+11408;Piz Dora;;;;
+11417;Mot Radond;;0.1;;
+11506;Terza;;0.1;0.3;
+11301;Plaun da l'aua;;;0.3;0.1
+;;;;;
+;;;;;
+;;;;;
+10205;Tschierv Plaz;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;0.1;;0.4
+10202;Ofenpass;0.2;0.1;0.3;0.1
+10217;Puntweil;;;0.1;
+10222;Lü;0.5;;;
+10503;Fuldera;;;;
+10504;Lüsai;0.1;;;
+11103;Pra Schec;0.2;;;
+11309;Pass da Costainas;;0.1;;0.4
+11310;Sassalba;;0.05;;
+11401;Piz Vallatscha;;0.05;;
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.1;;
+11405;Muntet;;0.1;;
+11407;Piz Daint;;0.1;;
+11408;Piz Dora;;;;
+11417;Mot Radond;;0.1;;
+11506;Terza;;0.1;0.3;
+11301;Plaun da l'aua;;;0.3;0.1
+;;;;;
+;;;;;
+;;;;;
+10503;Fuldera village;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;;;0.15
+10202;Ofenpass;;;0.1;0.1
+10217;Puntweil;;;0.1;0.05
+10222;Lü;0.3;;0.2;
+10504;Lüsai;0.1;;;
+11309;Pass da Costainas;;0.1;;0.3
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.1;;
+11405;Muntet;0.1;0.1;0.1;
+11408;Piz Dora;;0.2;;
+10102;Pass Val Mora;;0.1;;0.1
+11305;Lai da Chazfora;0.1;0.05;;
+10101;Fuorcla del Gal;;0.05;;0.1
+10201;Buffalora;;;;0.1
+11503;Süsom Givè;;;0.1;
+11607;Alp da Munt;0.1;0.1;0.1;
+11201;Urezzi;0.1;;0.1;
+11306;Valbella;0.1;0.1;0.1;0.1
+10507;Müstair;0.1;;0.1;
+;;;;;
+;;;;;
+;;;;;
+10224;Lüsai 1656;;;;
+;total;1;1;0;0
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10222;Lü;0.5;0.2;;
+11506;Terza;0.3;0.4;;
+11502;Alp Champatsch;0.2;0.4;;
+;;;;;
+;;;;;
+;;;;;
+10504;Lüsai;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;;;0.45
+10202;Ofenpass;;0.1;;
+11506;Terza;0.2;0.1;0.2;
+10222;Lü;0.3;;;
+10504;Lüsai;;;;
+11309;Pass da Costainas;;;;
+11403;Piz Cotschen;;0.2;;
+11405;Muntet;0.1;0.1;0.2;
+11502;Alp Champatsch;0.2;0.1;0.2;0.1
+11305;Lai da Chazfora;;0.1;0.1;
+10201;Buffalora;;;0.1;0.1
+11503;Süsom Givè;;;;0.1
+11307;Funtana da S-Charl;;;;0.05
+11311;Plaun da l'Aua;0.1;0.2;0.1;0.2
+11306;Valbella;;0.1;;
+10507;Müstair;0.1;;0.1;
+;;;;;
+;;;;;
+;;;;;
+10222;Lü;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+11308;Crappetta;0.05;0;0;
+10103;God da Praditsch;0.05;0.05;0.1;0.4
+11103;Lü Pra Schec;0.2;0;0;
+10504;Lüsai;0.1;0;0;
+11417;Mot Radond;0;0.05;0;
+11405;Muntet;0;0.1;0;
+10202;Ofenpass;0.1;0.2;0.2;0.2
+11309;Pass da Costainas;;0.2;0.2;
+11403;Piz Cotschen;0;0.05;0;
+11402;Piz Minschuns;0;0;0;
+11404;Piz Terza;0;0.2;0;
+11401;Piz Vallatscha;0;0.1;0;
+10405;PP Minschuns;0.2;0;0.1;0.1
+11310;Sassalba;0;0;0;
+11506;Terza;0.2;0.05;0.2;0.1
+10501;Tschierv;0.1;0;0.1;
+11306;Valbella;0;0;0;0.1
+10507;Müstair;;;0.1;
+10102;Passo Val Mora;;;;0.1
+;;;;;
+;;;;;
+;;;;;
+10505;Valchava village;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;;;0.1
+10202;Ofenpass;;0.1;0.2;0.1
+10217;Puntweil;;;0.1;
+10222;Lü;0.4;0.1;0.2;
+10504;Lüsai;0.1;;;
+11309;Pass da Costainas;;;;0.2
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.1;;
+11405;Muntet;;0.1;;
+10102;Pass Val Mora;;;;0.1
+10101;Fuorcla del Gal;;;;0.1
+10201;Buffalora;;;0.2;0.1
+11607;Alp da Munt;0.2;0.2;0.1;
+10507;Müstair;0.1;;;
+10205;Lai da Rims;;0.1;;
+11304;Piz Praveder;;0.1;;
+10102;Passo val Mora;;;;0.2
+11502;Alp Champatsch;0.2;0.1;0.2;0.1
+;;;;;
+;;;;;
+;;;;;
+10506;Sta. Maria;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;;;0.1
+10202;Ofenpass;;;;
+10217;Puntweil;;;0.1;
+10222;Lü;0.3;0.1;0.2;
+10504;Lüsai;0.1;;;
+11309;Pass da Costainas;;;;0.2
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.1;;
+11405;Muntet;;0.1;;
+10102;Pass Val Mora;;;;0.1
+10101;Fuorcla del Gal;;;;0.1
+10201;Buffalora;;;0.1;0.1
+11607;Alp da Munt;0.2;0.2;;
+10507;Müstair;0.1;;;
+10205;Lai da Rims;;0.2;;
+11304;Piz Praveder;;0.1;;
+10102;Passo val Mora;;;;0.2
+11502;Alp Champatsch;0.2;0.1;0.2;0.1
+10218;Platatschas;;;0.1;
+10219;Blockhütte;;;0.1;
+10221;Umbrailpass;;;0.1;0.1
+11506;Terza;0.1;;0.1;
+;;;;;
+;;;;;
+;;;;;
+10507;Müstair;;;;
+;total;1;1;1;1
+point_id;point_name;Easy hiker (EH);Advanced hiker (AH);Easy Biker (B);Advanced Biker
+10103;God da Praditsch;;;;0.1
+10202;Ofenpass;;;;
+10217;Puntweil;;;0.1;
+10222;Lü;;0.1;0.2;
+10504;Lüsai;;;;
+11309;Pass da Costainas;;;;0.2
+11403;Piz Cotschen;;0.1;;
+11404;Piz Terza;;0.2;;
+11405;Muntet;;0.1;;
+10102;Pass Val Mora;;;;0.1
+10101;Fuorcla del Gal;;;;0.1
+10201;Buffalora;;;0.1;0.1
+11607;Alp da Munt;0.2;0.1;;
+10507;Müstair;0.1;;;
+10205;Lai da Rims;;;;
+11304;Piz Praveder;;0.1;;
+10102;Passo val Mora;;;;0.2
+11502;Alp Champatsch;0.2;0.1;0.2;0.1
+10218;Platatschas;;;0.1;
+10219;Blockhütte;;;0.1;
+10221;Umbrailpass;;;0.1;0.1
+11506;Terza;0.2;0.1;0.1;
+10506;Sta. Maria;0.3;;;
