@@ -1,0 +1,1427 @@
+<timetables>
+
+<timetableData ID="tt_10106_Fop_da_Buffalora">
+    <!-- Time Table for Entrypoint ID: 10106 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>9</period12_14>
+    <period14_16>9</period14_16>
+    <period16_18>6</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10101_Fuorcla_del_Gal">
+    <!-- Time Table for Entrypoint ID: 10101 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10101_Fuorcla_del_Gal">
+    <!-- Time Table for Entrypoint ID: 10101 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10102_Passo_Val_Mora">
+    <!-- Time Table for Entrypoint ID: 10102 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10102_Passo_Val_Mora">
+    <!-- Time Table for Entrypoint ID: 10102 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>5</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>30</period12_14>
+    <period14_16>30</period14_16>
+    <period16_18>20</period16_18>
+    <period18_20>5</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10221_Umbrailpass">
+    <!-- Time Table for Entrypoint ID: 10221 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10221_Umbrailpass">
+    <!-- Time Table for Entrypoint ID: 10221 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10221_Umbrailpass">
+    <!-- Time Table for Entrypoint ID: 10221 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>3</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10221_Umbrailpass">
+    <!-- Time Table for Entrypoint ID: 10221 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>3</period16_18>
+    <period18_20>1</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10218_Platatschas">
+    <!-- Time Table for Entrypoint ID: 10218 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>5</period10_12>
+    <period12_14>5</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10218_Platatschas">
+    <!-- Time Table for Entrypoint ID: 10218 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10219_Blockhütte">
+    <!-- Time Table for Entrypoint ID: 10219 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10219_Blockhütte">
+    <!-- Time Table for Entrypoint ID: 10219 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10217_Puntweil">
+    <!-- Time Table for Entrypoint ID: 10217 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10217_Puntweil">
+    <!-- Time Table for Entrypoint ID: 10217 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>1</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10217_Puntweil">
+    <!-- Time Table for Entrypoint ID: 10217 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>3</period16_18>
+    <period18_20>6</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10217_Puntweil">
+    <!-- Time Table for Entrypoint ID: 10217 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>12</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>8</period16_18>
+    <period18_20>4</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10103_Tamangur_Dadora">
+    <!-- Time Table for Entrypoint ID: 10103 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>12</period10_12>
+    <period12_14>9</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10103_Tamangur_Dadora">
+    <!-- Time Table for Entrypoint ID: 10103 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10104_Tamangur_Dadora">
+    <!-- Time Table for Entrypoint ID: 10104 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10104_Tamangur_Dadora">
+    <!-- Time Table for Entrypoint ID: 10104 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10201_Buffalora">
+    <!-- Time Table for Entrypoint ID: 10201 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10201_Buffalora">
+    <!-- Time Table for Entrypoint ID: 10201 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>8</period06_08>
+    <period08_10>12</period08_10>
+    <period10_12>12</period10_12>
+    <period12_14>8</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10201_Buffalora">
+    <!-- Time Table for Entrypoint ID: 10201 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10201_Buffalora">
+    <!-- Time Table for Entrypoint ID: 10201 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>3</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>9</period10_12>
+    <period12_14>9</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10202_Süsom_Give">
+    <!-- Time Table for Entrypoint ID: 10202 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>9</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>3</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10202_Süsom_Give">
+    <!-- Time Table for Entrypoint ID: 10202 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>3</period06_08>
+    <period08_10>9</period08_10>
+    <period10_12>9</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10202_Süsom_Give">
+    <!-- Time Table for Entrypoint ID: 10202 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>5</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>3</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10202_Süsom_Give">
+    <!-- Time Table for Entrypoint ID: 10202 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10404_Parkplatz_2078">
+    <!-- Time Table for Entrypoint ID: 10404 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10404_Parkplatz_2078">
+    <!-- Time Table for Entrypoint ID: 10404 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10404_Parkplatz_2078">
+    <!-- Time Table for Entrypoint ID: 10404 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10405_Alp_da_Munt">
+    <!-- Time Table for Entrypoint ID: 10405 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10405_Alp_da_Munt">
+    <!-- Time Table for Entrypoint ID: 10405 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10405_Alp_da_Munt">
+    <!-- Time Table for Entrypoint ID: 10405 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10405_Alp_da_Munt">
+    <!-- Time Table for Entrypoint ID: 10405 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>0</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10203_Aintasom_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10203 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>9</period14_16>
+    <period16_18>6</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10203_Aintasom_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10203 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10203_Aintasom_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10203 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10501_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10501 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10501_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10501 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10501_Tschierv">
+    <!-- Time Table for Entrypoint ID: 10501 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10205_Tschierv_Plaz">
+    <!-- Time Table for Entrypoint ID: 10205 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>4</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>8</period12_14>
+    <period14_16>12</period14_16>
+    <period16_18>8</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10205_Tschierv_Plaz">
+    <!-- Time Table for Entrypoint ID: 10205 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10205_Tschierv_Plaz">
+    <!-- Time Table for Entrypoint ID: 10205 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>5</period10_12>
+    <period12_14>5</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>5</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10205_Tschierv_Plaz">
+    <!-- Time Table for Entrypoint ID: 10205 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10503_Fuldera_village">
+    <!-- Time Table for Entrypoint ID: 10503 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>5</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>10</period12_14>
+    <period14_16>15</period14_16>
+    <period16_18>10</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10503_Fuldera_village">
+    <!-- Time Table for Entrypoint ID: 10503 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10503_Fuldera_village">
+    <!-- Time Table for Entrypoint ID: 10503 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>5</period10_12>
+    <period12_14>5</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>5</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10503_Fuldera_village">
+    <!-- Time Table for Entrypoint ID: 10503 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10224_Lüsai_1656">
+    <!-- Time Table for Entrypoint ID: 10224 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10224_Lüsai_1656">
+    <!-- Time Table for Entrypoint ID: 10224 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10224_Lüsai_1656">
+    <!-- Time Table for Entrypoint ID: 10224 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10224_Lüsai_1656">
+    <!-- Time Table for Entrypoint ID: 10224 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10504_Lüsai">
+    <!-- Time Table for Entrypoint ID: 10504 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10504_Lüsai">
+    <!-- Time Table for Entrypoint ID: 10504 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10504_Lüsai">
+    <!-- Time Table for Entrypoint ID: 10504 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10504_Lüsai">
+    <!-- Time Table for Entrypoint ID: 10504 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10222_Lü">
+    <!-- Time Table for Entrypoint ID: 10222 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>8</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>8</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10222_Lü">
+    <!-- Time Table for Entrypoint ID: 10222 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>5</period06_08>
+    <period08_10>15</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>10</period12_14>
+    <period14_16>10</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10222_Lü">
+    <!-- Time Table for Entrypoint ID: 10222 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10222_Lü">
+    <!-- Time Table for Entrypoint ID: 10222 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10209_Furom">
+    <!-- Time Table for Entrypoint ID: 10209 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10209_Furom">
+    <!-- Time Table for Entrypoint ID: 10209 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10209_Furom">
+    <!-- Time Table for Entrypoint ID: 10209 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>1</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10210_Valchava_West">
+    <!-- Time Table for Entrypoint ID: 10210 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>1</period12_14>
+    <period14_16>2</period14_16>
+    <period16_18>1</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10210_Valchava_West">
+    <!-- Time Table for Entrypoint ID: 10210 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>5</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>3</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10210_Valchava_West">
+    <!-- Time Table for Entrypoint ID: 10210 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10210_Valchava_West">
+    <!-- Time Table for Entrypoint ID: 10210 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10505_Valchava_village">
+    <!-- Time Table for Entrypoint ID: 10505 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>3</period06_08>
+    <period08_10>8</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>10</period12_14>
+    <period14_16>10</period14_16>
+    <period16_18>10</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10505_Valchava_village">
+    <!-- Time Table for Entrypoint ID: 10505 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>12</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>8</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10505_Valchava_village">
+    <!-- Time Table for Entrypoint ID: 10505 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10505_Valchava_village">
+    <!-- Time Table for Entrypoint ID: 10505 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10506_Sta._Maria">
+    <!-- Time Table for Entrypoint ID: 10506 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>3</period06_08>
+    <period08_10>9</period08_10>
+    <period10_12>12</period10_12>
+    <period12_14>12</period12_14>
+    <period14_16>12</period14_16>
+    <period16_18>12</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10506_Sta._Maria">
+    <!-- Time Table for Entrypoint ID: 10506 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>5</period06_08>
+    <period08_10>15</period08_10>
+    <period10_12>10</period10_12>
+    <period12_14>10</period12_14>
+    <period14_16>10</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10506_Sta._Maria">
+    <!-- Time Table for Entrypoint ID: 10506 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>3</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>9</period14_16>
+    <period16_18>6</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10506_Sta._Maria">
+    <!-- Time Table for Entrypoint ID: 10506 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>6</period06_08>
+    <period08_10>9</period08_10>
+    <period10_12>9</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10213_Sielva">
+    <!-- Time Table for Entrypoint ID: 10213 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10213_Sielva">
+    <!-- Time Table for Entrypoint ID: 10213 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>4</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10213_Sielva">
+    <!-- Time Table for Entrypoint ID: 10213 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>0</period08_10>
+    <period10_12>0</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>1</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10213_Sielva">
+    <!-- Time Table for Entrypoint ID: 10213 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>1</period10_12>
+    <period12_14>0</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10214_Müstair_Süd">
+    <!-- Time Table for Entrypoint ID: 10214 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>4</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>4</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10214_Müstair_Süd">
+    <!-- Time Table for Entrypoint ID: 10214 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>3</period06_08>
+    <period08_10>9</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10214_Müstair_Süd">
+    <!-- Time Table for Entrypoint ID: 10214 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>2</period08_10>
+    <period10_12>3</period10_12>
+    <period12_14>3</period12_14>
+    <period14_16>5</period14_16>
+    <period16_18>3</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10214_Müstair_Süd">
+    <!-- Time Table for Entrypoint ID: 10214 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>6</period06_08>
+    <period08_10>9</period08_10>
+    <period10_12>9</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10507_Müstair">
+    <!-- Time Table for Entrypoint ID: 10507 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>2</period06_08>
+    <period08_10>5</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>6</period12_14>
+    <period14_16>6</period14_16>
+    <period16_18>6</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10507_Müstair">
+    <!-- Time Table for Entrypoint ID: 10507 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>12</period08_10>
+    <period10_12>8</period10_12>
+    <period12_14>8</period12_14>
+    <period14_16>8</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10507_Müstair">
+    <!-- Time Table for Entrypoint ID: 10507 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>0</period06_08>
+    <period08_10>1</period08_10>
+    <period10_12>2</period10_12>
+    <period12_14>2</period12_14>
+    <period14_16>3</period14_16>
+    <period16_18>2</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+<timetableData ID="tt_10507_Müstair">
+    <!-- Time Table for Entrypoint ID: 10507 -->
+    <period00_02>0</period00_02>
+    <period02_04>0</period02_04>
+    <period04_06>0</period04_06>
+    <period06_08>4</period06_08>
+    <period08_10>6</period08_10>
+    <period10_12>6</period10_12>
+    <period12_14>4</period12_14>
+    <period14_16>0</period14_16>
+    <period16_18>0</period16_18>
+    <period18_20>0</period18_20>
+    <period20_22>0</period20_22>
+    <period22_24>0</period22_24>
+</timetableData>
+
+</timetables>

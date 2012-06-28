@@ -1,0 +1,204 @@
+<stateTypes>
+
+<stateType ID="entryState_advancedHiker_10507_Muestair">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode>
+    <type>normal</type>
+    <instatiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        </function>
+    </instatiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10507_Muestair">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode
+    <type>normal</type>
+    <categoricTransitFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10507_Muestair</toState>
+        </function>
+    </categoricTransitFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10507_Muestair">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <agnetmode>network</agentmode
+    <type>normal</type>
+    <instatiationsFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10507" probability="100"/>
+        </function>
+    </instatiationsFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10507_Muestair">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode>
+    <type>normal</type>
+    <instatiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        </function>
+    </instatiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10507_Muestair">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode
+    <type>normal</type>
+    <categoricTransitFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10507_Muestair</toState>
+        </function>
+    </categoricTransitFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10507_Muestair">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <agnetmode>network</agentmode
+    <type>normal</type>
+    <instatiationsFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10507" probability="100"/>
+        </function>
+    </instatiationsFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10507_Muestair">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode>
+    <type>normal</type>
+    <instatiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        </function>
+    </instatiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10507_Muestair">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode
+    <type>normal</type>
+    <categoricTransitFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10507_Muestair</toState>
+        </function>
+    </categoricTransitFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10507_Muestair">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <agnetmode>network</agentmode
+    <type>normal</type>
+    <instatiationsFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10507" probability="100"/>
+        </function>
+    </instatiationsFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10507_Muestair">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode>
+    <type>normal</type>
+    <instatiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        </function>
+    </instatiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10507_Muestair">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <agentmode>network</agentmode
+    <type>normal</type>
+    <categoricTransitFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10507_Muestair</toState>
+        </function>
+    </categoricTransitFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10507_Muestair">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <agnetmode>network</agentmode
+    <type>normal</type>
+    <instatiationsFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10507" probability="100"/>
+        </function>
+    </instatiationsFunctions>
+</stateType>
+
+</stateTypes>
+

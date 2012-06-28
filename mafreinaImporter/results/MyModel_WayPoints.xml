@@ -1,0 +1,12 @@
+<waypoints>
+
+    <loader type="point">
+        <geometry>
+            <source>wayPoints</source>
+            <query></query>
+            <id_field>wayPointId</id_field>
+        </geometry>
+    </loader>
+
+</waypoints>
+

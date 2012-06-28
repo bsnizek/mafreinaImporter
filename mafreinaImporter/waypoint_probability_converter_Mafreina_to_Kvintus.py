@@ -44,6 +44,10 @@ def ifZeroPct (val1, val2):
     if val2 == 0.0:
         return 0
     else:
+        try:
+            val1 = float(val1)
+        except:
+            val1 = 0.0
         return int(round(100 * val1 / val2, 0))
 
 def filterStates(entryPointID, entryPointName, wayPointProbabilities, countFunctions, agentTypes):
@@ -213,7 +217,12 @@ while not EOF:
             advancedHikerTotal += wayPoint[2]
             easyHikerTotal     += wayPoint[3]
             advancedBikerTotal += wayPoint[4]
-            easyBikerTotal     += wayPoint[5]
+            
+            try:
+                easyBikerTotal += float(wayPoint[5])
+            except:
+                pass
+            
         wayPointProbabilities = []
         for wayPoint in wayPoints:
             advancedHikerPct  = ifZeroPct(wayPoint[2], advancedHikerTotal)

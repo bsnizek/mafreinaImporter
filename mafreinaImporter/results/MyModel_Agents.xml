@@ -1,0 +1,880 @@
+<agents>
+
+    
+<agentType ID= "agent_advancedHiker_10221_Umbrailpass" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10221_Umbrailpass"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10221_Umbrailpass"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10218_Platatschas" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10218_Platatschas"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10218_Platatschas"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10219_Blockhuette" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10219_Blockhuette"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10219_Blockhuette"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10217_Puntweil" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10217_Puntweil"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10217_Puntweil"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10103_Tamangur_Dadora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10103_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10103_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10104_Tamangur_Dadora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10104_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10104_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10201_Buffalora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10201_Buffalora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10201_Buffalora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10202_Suesom_Give" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10202_Suesom_Give"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10202_Suesom_Give"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10404_Parkplatz_2078" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10404_Parkplatz_2078"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10404_Parkplatz_2078"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10405_Alp_da_Munt" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10405_Alp_da_Munt"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10405_Alp_da_Munt"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10501_Tschierv" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10501_Tschierv"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10501_Tschierv"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10205_Tschierv_Plaz" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10205_Tschierv_Plaz"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10205_Tschierv_Plaz"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10503_Fuldera_village" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10503_Fuldera_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10503_Fuldera_village"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10224_Luesai_1656" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10224_Luesai_1656"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10224_Luesai_1656"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10504_Luesai" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10504_Luesai"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10504_Luesai"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10222_Lue" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10222_Lue"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10222_Lue"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10505_Valchava_village" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10505_Valchava_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10505_Valchava_village"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10506_Sta._Maria" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10506_Sta._Maria"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10506_Sta._Maria"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedHiker_10507_Muestair" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedHiker_10507_Muestair"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedHiker_10507_Muestair"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10106_Fop_da_Buffalora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10106_Fop_da_Buffalora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10106_Fop_da_Buffalora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10101_Fuorcla_del_Gal" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10101_Fuorcla_del_Gal"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10101_Fuorcla_del_Gal"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10102_Passo_Val_Mora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10102_Passo_Val_Mora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10102_Passo_Val_Mora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10221_Umbrailpass" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10221_Umbrailpass"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10221_Umbrailpass"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10218_Platatschas" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10218_Platatschas"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10218_Platatschas"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10219_Blockhuette" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10219_Blockhuette"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10219_Blockhuette"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10217_Puntweil" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10217_Puntweil"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10217_Puntweil"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10103_Tamangur_Dadora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10103_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10103_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10104_Tamangur_Dadora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10104_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10104_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10201_Buffalora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10201_Buffalora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10201_Buffalora"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10202_Suesom_Give" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10202_Suesom_Give"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10202_Suesom_Give"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10404_Parkplatz_2078" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10404_Parkplatz_2078"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10404_Parkplatz_2078"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10405_Alp_da_Munt" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10405_Alp_da_Munt"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10405_Alp_da_Munt"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10501_Tschierv" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10501_Tschierv"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10501_Tschierv"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10205_Tschierv_Plaz" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10205_Tschierv_Plaz"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10205_Tschierv_Plaz"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10503_Fuldera_village" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10503_Fuldera_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10503_Fuldera_village"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10224_Luesai_1656" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10224_Luesai_1656"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10224_Luesai_1656"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10504_Luesai" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10504_Luesai"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10504_Luesai"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10222_Lue" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10222_Lue"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10222_Lue"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10505_Valchava_village" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10505_Valchava_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10505_Valchava_village"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10506_Sta._Maria" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10506_Sta._Maria"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10506_Sta._Maria"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyHiker_10507_Muestair" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyHiker_10507_Muestair"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyHiker_10507_Muestair"</stateRefTypes>
+    <icon>
+        <primitive>square</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10221_Umbrailpass" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10221_Umbrailpass"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10221_Umbrailpass"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10217_Puntweil" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10217_Puntweil"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10217_Puntweil"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10103_Tamangur_Dadora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10103_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10103_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10104_Tamangur_Dadora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10104_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10104_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10201_Buffalora" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10201_Buffalora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10201_Buffalora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10202_Suesom_Give" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10202_Suesom_Give"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10202_Suesom_Give"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10405_Alp_da_Munt" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10405_Alp_da_Munt"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10405_Alp_da_Munt"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10501_Tschierv" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10501_Tschierv"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10501_Tschierv"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10205_Tschierv_Plaz" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10205_Tschierv_Plaz"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10205_Tschierv_Plaz"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10503_Fuldera_village" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10503_Fuldera_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10503_Fuldera_village"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10504_Luesai" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10504_Luesai"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10504_Luesai"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10222_Lue" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10222_Lue"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10222_Lue"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10505_Valchava_village" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10505_Valchava_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10505_Valchava_village"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10506_Sta._Maria" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10506_Sta._Maria"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10506_Sta._Maria"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_advancedBiker_10507_Muestair" revolve="false">
+    <timeAvailable>240</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_advancedBiker_10507_Muestair"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_advancedBiker_10507_Muestair"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10101_Fuorcla_del_Gal" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10101_Fuorcla_del_Gal"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10101_Fuorcla_del_Gal"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10102_Passo_Val_Mora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10102_Passo_Val_Mora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10102_Passo_Val_Mora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10221_Umbrailpass" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10221_Umbrailpass"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10221_Umbrailpass"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10217_Puntweil" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10217_Puntweil"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10217_Puntweil"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10103_Tamangur_Dadora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10103_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10103_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10104_Tamangur_Dadora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10104_Tamangur_Dadora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10104_Tamangur_Dadora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10201_Buffalora" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10201_Buffalora"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10201_Buffalora"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10202_Suesom_Give" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10202_Suesom_Give"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10202_Suesom_Give"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10405_Alp_da_Munt" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10405_Alp_da_Munt"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10405_Alp_da_Munt"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10501_Tschierv" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10501_Tschierv"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10501_Tschierv"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10205_Tschierv_Plaz" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10205_Tschierv_Plaz"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10205_Tschierv_Plaz"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10503_Fuldera_village" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10503_Fuldera_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10503_Fuldera_village"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10504_Luesai" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10504_Luesai"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10504_Luesai"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10222_Lue" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10222_Lue"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10222_Lue"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10505_Valchava_village" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10505_Valchava_village"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10505_Valchava_village"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10506_Sta._Maria" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10506_Sta._Maria"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10506_Sta._Maria"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+    
+<agentType ID= "agent_easyBiker_10507_Muestair" revolve="false">
+    <timeAvailable>120</timeAvailable>
+    <numberOfParticipants>1</numberOfParticipants>
+    <stateRefTypes>
+        <stateRefType> order="1" pctoftrip="75" ref="entryState_easyBiker_10507_Muestair"</stateRefTypes>
+        <stateRefType> order="2" pctoftrip="25" ref="exitState_easyBiker_10507_Muestair"</stateRefTypes>
+    <icon>
+        <primitive>circle</primitive>
+        <size>6</size>
+    </icon>
+</agentType>
+</agents>
+

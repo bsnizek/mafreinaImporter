@@ -10,9 +10,12 @@ delim = ";"
 indent1 = ""
 indent2 = "    "
 modelName = "MyModel_"
-path = "C:\data\Mafreina\Data\New_Entry_Points/".replace("\\", "/")
+path = "data/".replace("\\", "/")
 
-dataPath = "C:\data\Mafreina\Data\New_Entry_Points/".replace("\\", "/")
+dataPath = "data/".replace("\\", "/")
+
+resultsPath = "results/".replace("\\", "/")
+
 ##dataPath = "P:\PROJEKT\MaFreiNa\Data\GeoData\\".replace("\\", "/")
 pointId = {}
 wayPointIdList = []
@@ -56,14 +59,13 @@ wayPointIdField = "wayPointId"
 wayPointSourceName = "wayPoints"
 
 inEPFileName = path + "entry_profile.csv"
-outTTFileName = path + modelName + "timeTables.xml"
-outEntryPointFileName = path + modelName + "entryPoints.xml"
+outTTFileName = resultsPath + modelName + "timeTables.xml"
+outEntryPointFileName = resultsPath + modelName + "entryPoints.xml"
 
 inWPFileName = path + "waypointstoaim.csv"
-outStateFileName = path + modelName + "States.xml"
-outAgentFileName = path + modelName + "Agents.xml"
-outWayPointFileName = path + modelName + "WayPoints.xml"
-
+outStateFileName = resultsPath + modelName + "States.xml"
+outAgentFileName = resultsPath + modelName + "Agents.xml"
+outWayPointFileName = resultsPath + modelName + "WayPoints.xml"
 
 n = Normalizer()
 
