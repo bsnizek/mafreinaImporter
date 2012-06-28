@@ -93,8 +93,9 @@ class agentParams:
             outAgentHdl.write(indent2 + "<timeAvailable>" + str(self.timeAvailable) + "</timeAvailable>\n")
             outAgentHdl.write(indent2 + "<numberOfParticipants>" + str(self.numParti) + "</numberOfParticipants>\n")
             outAgentHdl.write(indent2 + "<stateRefTypes>\n")
-            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"1\" pctoftrip=\"75\" ref=\"" + "entryState_" + state + "\"</stateRefTypes>\n")
-            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"2\" pctoftrip=\"25\" ref=\"" + "exitState_" + state + "\"</stateRefTypes>\n")
+            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"1\" pctoftrip=\"75\" ref=\"" + "entryState_" + state + "\"></stateRefType>\n")
+            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"2\" pctoftrip=\"25\" ref=\"" + "exitState_" + state + "\"></stateRefType>\n")
+            outAgentHdl.write(indent2 + "</stateRefTypes>\n")
             outAgentHdl.write(indent2 + "<icon>\n")
             outAgentHdl.write(indent2 + indent2 + "<primitive>" + self.iconSymbol + "</primitive>\n")
             outAgentHdl.write(indent2 + indent2 + "<size>" + str(self.iconSize) + "</size>\n")
@@ -116,9 +117,10 @@ class agentParams:
             outStateHdl.write(indent2 + indent2 + "<alpha>" + str(self.speedAlpha) + "</alpha>\n")                  
             outStateHdl.write(indent2 + indent2 + "<beta>" + str(self.speedBeta) + "</beta>\n")                  
             outStateHdl.write(indent2 + "</speed>\n")
-            outStateHdl.write(indent2 + "<agentmode>network</agentmode>\n")
+            outStateHdl.write(indent2 + "<headOnFactor>1.0</headOnFactor>\n");
+            outStateHdl.write(indent2 + "<agentMode>network</agentMode>\n")
             outStateHdl.write(indent2 + "<type>normal</type>\n")
-            outStateHdl.write(indent2 + "<instatiationFunctions>\n" + indent2 + indent2 + "<function name=\"selectWaypoint\">\n")
+            outStateHdl.write(indent2 + "<instantiationFunctions>\n" + indent2 + indent2 + "<function name=\"selectWaypoint\">\n")
             for wayPoint in wayPointProbabilities:
                 if wayPoint[i] > 0:
                     blanks = " "
@@ -126,7 +128,7 @@ class agentParams:
                         blanks += " " 
                     n = Normalizer()          
                     outStateHdl.write(indent2 + indent2 + "<waypoint id=\"" + str(wayPoint[0]) + "\" probability=\"" + str(wayPoint[i]) + "\" />" + blanks + "<!-- " + n.normalize(wayPoint[1]) + "-->\n")
-            outStateHdl.write(indent2 + indent2 + "</function>\n" + indent2 + "</instatiationFunctions>\n")
+            outStateHdl.write(indent2 + indent2 + "</function>\n" + indent2 + "</instantiationFunctions>\n")
             countFunctions += 1
             outStateHdl.write("</stateType>\n\n") 
         i += 1
@@ -137,14 +139,15 @@ class agentParams:
         outStateHdl.write(indent2 + indent2 + "<alpha>" + str(self.speedAlpha) + "</alpha>\n")                  
         outStateHdl.write(indent2 + indent2 + "<beta>" + str(self.speedBeta) + "</beta>\n")                  
         outStateHdl.write(indent2 + "</speed>\n")
-        outStateHdl.write(indent2 + "<agentmode>network</agentmode\n")
+        outStateHdl.write(indent2 + "<headOnFactor>1.0</headOnFactor>\n");
+        outStateHdl.write(indent2 + "<agentMode>network</agentMode>\n")
         outStateHdl.write(indent2 + "<type>normal</type>\n")
-        outStateHdl.write(indent2 + "<categoricTransitFunctions>\n")
+        outStateHdl.write(indent2 + "<categoricTransitionFunctions>\n")
         outStateHdl.write(indent2 + indent2 + "<function name=\"waitTime\">\n")
         outStateHdl.write(indent2 + indent2 + indent2 +  "<parameter>" + str(self.wayPointWait) + "</parameter>\n")
         outStateHdl.write(indent2 + indent2 + indent2 + "<toState>" + "Exit_" + self.genericAgentId + "_" + str(entryPointID) + "_" + entryPointName + "</toState>\n")                  
         outStateHdl.write(indent2 + indent2 + "</function>\n")
-        outStateHdl.write(indent2 + "</categoricTransitFunctions>\n")
+        outStateHdl.write(indent2 + "</categoricTransitionFunctions>\n")
         outStateHdl.write("</stateType>\n\n") 
 
         ## Exit behaviour 
@@ -154,13 +157,14 @@ class agentParams:
         outStateHdl.write(indent2 + indent2 + "<alpha>" + str(self.speedAlpha) + "</alpha>\n")                  
         outStateHdl.write(indent2 + indent2 + "<beta>" + str(self.speedBeta) + "</beta>\n")                  
         outStateHdl.write(indent2 + "</speed>\n")
-        outStateHdl.write(indent2 + "<agnetmode>network</agentmode\n")
+        outStateHdl.write(indent2 + "<headOnFactor>1.0</headOnFactor>\n");
+        outStateHdl.write(indent2 + "<agentMode>network</agentMode>\n")
         outStateHdl.write(indent2 + "<type>normal</type>\n")
-        outStateHdl.write(indent2 + "<instatiationsFunctions>\n")
+        outStateHdl.write(indent2 + "<instantiationFunctions>\n")
         outStateHdl.write(indent2 + indent2 + "<function name=\"selectWaypoint\">\n")
         outStateHdl.write(indent2 + indent2 + indent2 + "<waypoint id=\"" + str(entryPointID) + "\" probability=\"100\"/>\n")                  
         outStateHdl.write(indent2 + indent2 + "</function>\n")
-        outStateHdl.write(indent2 + "</instatiationsFunctions>\n")
+        outStateHdl.write(indent2 + "</instantiationFunctions>\n")
         outStateHdl.write("</stateType>\n\n") 
         ##return countFunctions
     def dictWayPoints(self, wpDict):
