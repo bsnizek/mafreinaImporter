@@ -1,10 +1,10 @@
-# -*- coding: cp1252 -*-
+# -*- coding: UTF-8 -*-
 # Creating KVINTUS Instatiationfunction
 # Basic variables and functions
 # HSP, June 2012
 from dbfpy import dbf
 
-import Normalizer
+from Normalizer import *
 
 delim = ";"
 indent1 = ""

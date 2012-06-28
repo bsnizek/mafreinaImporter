@@ -223,7 +223,9 @@ while not EOF:
             wayPointProbabilities.append([wayPoint[0], wayPoint[1], advancedHikerPct, easyHikerPct, advancedBikerPct, easyBikerPct])
             if wayPoint[0] not in wayPointListAll.keys():
                 wayPointListAll[wayPoint[0]] = wayPoint[1]
+        entryPointName = getRidOfSpecialCharacters(entryPointName)
         countFunctions = filterStates(entryPointID, entryPointName, wayPointProbabilities, countFunctions, agentTypes)
+        ##print entryPointName
         if entryPointID not in wayPointListAll.keys():
             entryPointListAll[entryPointID] = entryPointName
         wayPoints = []
