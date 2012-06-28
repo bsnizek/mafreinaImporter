@@ -49,7 +49,7 @@ while line:
             
             n = Normalizer()
             
-            timetableHeader = "\n<timetableData ID=\"tt_" + n.normalize(entryPointName) + "\">"
+            timetableHeader = "\n<timetableData ID=\"tt_" + epName + "_" + n.normalize(entryPointName) + "\">"
             timetableNote = "<!-- Time Table for Entrypoint ID: " + str(entryPointNumber) + " -->"
             timetableFooter = "</timetableData>"
             outTTHdl.write(indent1 + timetableHeader + "\n")
