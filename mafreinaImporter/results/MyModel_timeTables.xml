@@ -176,7 +176,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10219_Blockhütte">
+<timetableData ID="tt_10219_Blockhuette">
     <!-- Time Table for Entrypoint ID: 10219 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -192,7 +192,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10219_Blockhütte">
+<timetableData ID="tt_10219_Blockhuette">
     <!-- Time Table for Entrypoint ID: 10219 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -400,7 +400,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10202_Süsom_Give">
+<timetableData ID="tt_10202_Suesom_Give">
     <!-- Time Table for Entrypoint ID: 10202 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -416,7 +416,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10202_Süsom_Give">
+<timetableData ID="tt_10202_Suesom_Give">
     <!-- Time Table for Entrypoint ID: 10202 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -432,7 +432,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10202_Süsom_Give">
+<timetableData ID="tt_10202_Suesom_Give">
     <!-- Time Table for Entrypoint ID: 10202 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -448,7 +448,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10202_Süsom_Give">
+<timetableData ID="tt_10202_Suesom_Give">
     <!-- Time Table for Entrypoint ID: 10202 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -800,7 +800,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10224_Lüsai_1656">
+<timetableData ID="tt_10224_Luesai_1656">
     <!-- Time Table for Entrypoint ID: 10224 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -816,7 +816,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10224_Lüsai_1656">
+<timetableData ID="tt_10224_Luesai_1656">
     <!-- Time Table for Entrypoint ID: 10224 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -832,7 +832,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10224_Lüsai_1656">
+<timetableData ID="tt_10224_Luesai_1656">
     <!-- Time Table for Entrypoint ID: 10224 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -848,7 +848,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10224_Lüsai_1656">
+<timetableData ID="tt_10224_Luesai_1656">
     <!-- Time Table for Entrypoint ID: 10224 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -864,7 +864,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10504_Lüsai">
+<timetableData ID="tt_10504_Luesai">
     <!-- Time Table for Entrypoint ID: 10504 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -880,7 +880,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10504_Lüsai">
+<timetableData ID="tt_10504_Luesai">
     <!-- Time Table for Entrypoint ID: 10504 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -896,7 +896,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10504_Lüsai">
+<timetableData ID="tt_10504_Luesai">
     <!-- Time Table for Entrypoint ID: 10504 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -912,7 +912,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10504_Lüsai">
+<timetableData ID="tt_10504_Luesai">
     <!-- Time Table for Entrypoint ID: 10504 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -928,7 +928,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10222_Lü">
+<timetableData ID="tt_10222_Lue">
     <!-- Time Table for Entrypoint ID: 10222 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -944,7 +944,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10222_Lü">
+<timetableData ID="tt_10222_Lue">
     <!-- Time Table for Entrypoint ID: 10222 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -960,7 +960,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10222_Lü">
+<timetableData ID="tt_10222_Lue">
     <!-- Time Table for Entrypoint ID: 10222 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -976,7 +976,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10222_Lü">
+<timetableData ID="tt_10222_Lue">
     <!-- Time Table for Entrypoint ID: 10222 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1296,7 +1296,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10214_Müstair_Süd">
+<timetableData ID="tt_10214_Muestair_Sued">
     <!-- Time Table for Entrypoint ID: 10214 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1312,7 +1312,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10214_Müstair_Süd">
+<timetableData ID="tt_10214_Muestair_Sued">
     <!-- Time Table for Entrypoint ID: 10214 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1328,7 +1328,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10214_Müstair_Süd">
+<timetableData ID="tt_10214_Muestair_Sued">
     <!-- Time Table for Entrypoint ID: 10214 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1344,7 +1344,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10214_Müstair_Süd">
+<timetableData ID="tt_10214_Muestair_Sued">
     <!-- Time Table for Entrypoint ID: 10214 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1360,7 +1360,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10507_Müstair">
+<timetableData ID="tt_10507_Muestair">
     <!-- Time Table for Entrypoint ID: 10507 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1376,7 +1376,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10507_Müstair">
+<timetableData ID="tt_10507_Muestair">
     <!-- Time Table for Entrypoint ID: 10507 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1392,7 +1392,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10507_Müstair">
+<timetableData ID="tt_10507_Muestair">
     <!-- Time Table for Entrypoint ID: 10507 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>
@@ -1408,7 +1408,7 @@
     <period22_24>0</period22_24>
 </timetableData>
 
-<timetableData ID="tt_10507_Müstair">
+<timetableData ID="tt_10507_Muestair">
     <!-- Time Table for Entrypoint ID: 10507 -->
     <period00_02>0</period00_02>
     <period02_04>0</period02_04>

@@ -3,6 +3,7 @@
 # Rather hard coded :-)
 
 from KvintusXML_Config import *
+from Normalizer import Normalizer
 
 def writeEntryPointProfiles(outEntryPointHdl, entryPointName, agentTypes):
         epNumber = entryPointName.split("_")[0]
@@ -11,6 +12,8 @@ def writeEntryPointProfiles(outEntryPointHdl, entryPointName, agentTypes):
         outEntryPointHdl.write(2 * indent2 + "<geometry_id>" + epNumber + "</geometry_id>\n")
         outEntryPointHdl.write(2 * indent2 + "<profiles>\n")
         for agent in agentTypes:
+            n = Normalizer()
+            agent = n.normalize(agent);
             outEntryPointHdl.write(3 * indent2 + "<profile>\n")
             outEntryPointHdl.write(4 * indent2 + "<agentDistribution pctofentries=\"100.0\" agent_type=\"" + agent + "\"/>\n")
             outEntryPointHdl.write(4 * indent2 + "<timetableReference ref=\"tt_" + agent + "\" scaleFactor=\"1.0\"/>\n")
@@ -43,7 +46,10 @@ while line:
                 agentTypesAtEntryPoints[entryPointName] = []
             agentTypesAtEntryPoints[entryPointName].append(activityEntryPointName)
             ## Writing Time Tables
-            timetableHeader = "\n<timetableData ID=\"tt_" + entryPointName + "\">"
+            
+            n = Normalizer()
+            
+            timetableHeader = "\n<timetableData ID=\"tt_" + n.normalize(entryPointName) + "\">"
             timetableNote = "<!-- Time Table for Entrypoint ID: " + str(entryPointNumber) + " -->"
             timetableFooter = "</timetableData>"
             outTTHdl.write(indent1 + timetableHeader + "\n")

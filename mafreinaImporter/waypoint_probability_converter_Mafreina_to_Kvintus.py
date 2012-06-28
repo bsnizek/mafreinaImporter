@@ -6,6 +6,7 @@
 # Rather hard coded :-)
 
 from KvintusXML_Config import *
+from Normalizer import Normalizer
 
 class readLineStr:
     def __init__(self, inWPHdl, delim):
@@ -92,8 +93,8 @@ class agentParams:
             outAgentHdl.write(indent2 + "<timeAvailable>" + str(self.timeAvailable) + "</timeAvailable>\n")
             outAgentHdl.write(indent2 + "<numberOfParticipants>" + str(self.numParti) + "</numberOfParticipants>\n")
             outAgentHdl.write(indent2 + "<stateRefTypes>\n")
-            outAgentHdl.write(indent2 + indent2 + "<stateRefType> order=\"1\" pctoftrip=\"75\" ref=\"" + "entryState_" + state + "\"</stateRefTypes>\n")
-            outAgentHdl.write(indent2 + indent2 + "<stateRefType> order=\"2\" pctoftrip=\"25\" ref=\"" + "exitState_" + state + "\"</stateRefTypes>\n")
+            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"1\" pctoftrip=\"75\" ref=\"" + "entryState_" + state + "\"</stateRefTypes>\n")
+            outAgentHdl.write(indent2 + indent2 + "<stateRefType order=\"2\" pctoftrip=\"25\" ref=\"" + "exitState_" + state + "\"</stateRefTypes>\n")
             outAgentHdl.write(indent2 + "<icon>\n")
             outAgentHdl.write(indent2 + indent2 + "<primitive>" + self.iconSymbol + "</primitive>\n")
             outAgentHdl.write(indent2 + indent2 + "<size>" + str(self.iconSize) + "</size>\n")
@@ -122,8 +123,9 @@ class agentParams:
                 if wayPoint[i] > 0:
                     blanks = " "
                     for cc in range(3 - len(str(wayPoint[i]))):
-                        blanks += " "           
-                    outStateHdl.write(indent2 + indent2 + "<waypoint id=\"" + str(wayPoint[0]) + "\" probability=\"" + str(wayPoint[i]) + "\" />" + blanks + "<!-- " + wayPoint[1] + "-->\n")
+                        blanks += " " 
+                    n = Normalizer()          
+                    outStateHdl.write(indent2 + indent2 + "<waypoint id=\"" + str(wayPoint[0]) + "\" probability=\"" + str(wayPoint[i]) + "\" />" + blanks + "<!-- " + n.normalize(wayPoint[1]) + "-->\n")
             outStateHdl.write(indent2 + indent2 + "</function>\n" + indent2 + "</instatiationFunctions>\n")
             countFunctions += 1
             outStateHdl.write("</stateType>\n\n") 

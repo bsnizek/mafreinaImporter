@@ -11,7 +11,7 @@
     <instatiationFunctions>
         <function name="selectWaypoint">
         <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
-        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
         <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
         <waypoint id="11506" probability="20" />  <!-- Terza-->
         <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
@@ -61,7 +61,7 @@
     <instatiationFunctions>
         <function name="selectWaypoint">
         <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
-        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
         <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
         <waypoint id="11506" probability="20" />  <!-- Terza-->
         <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
@@ -111,7 +111,7 @@
     <instatiationFunctions>
         <function name="selectWaypoint">
         <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
-        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
         <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
         <waypoint id="11506" probability="20" />  <!-- Terza-->
         <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
@@ -161,7 +161,7 @@
     <instatiationFunctions>
         <function name="selectWaypoint">
         <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
-        <waypoint id="10507" probability="10" />  <!-- Müstair-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
         <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
         <waypoint id="11506" probability="20" />  <!-- Terza-->
         <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
