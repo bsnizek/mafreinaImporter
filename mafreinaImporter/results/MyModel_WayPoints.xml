@@ -4,7 +4,7 @@
         <geometry>
             <source>wayPoints</source>
             <query></query>
-            <id_field>wayPointId</id_field>
+            <id_field_id>wayPointId</id_field_id>
         </geometry>
     </loader>
 

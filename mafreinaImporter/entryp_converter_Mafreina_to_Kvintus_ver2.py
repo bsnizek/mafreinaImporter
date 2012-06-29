@@ -7,7 +7,7 @@ from Normalizer import Normalizer
 
 def writeEntryPointProfiles(outEntryPointHdl, entryPointName, agentTypes):
         epNumber = entryPointName.split("_")[0]
-        outEntryPointHdl.write(indent1 + "\n<entrypoint> ID=\"ep_" + epNumber + "\" geotype=\"point\" type=\"dynamic\">\n")
+        outEntryPointHdl.write(indent1 + "\n<entrypoint ID=\"ep_" + epNumber + "\" geotype=\"point\" type=\"dynamic\">\n")
         outEntryPointHdl.write(2 * indent2 + "<loader>entry_loader</loader>\n")
         outEntryPointHdl.write(2 * indent2 + "<geometry_id>" + epNumber + "</geometry_id>\n")
         outEntryPointHdl.write(2 * indent2 + "<profiles>\n")
@@ -88,7 +88,7 @@ outEntryPointHdl.write("</loader>\n")
 for epName in agentTypesAtEntryPoints.keys():
     writeEntryPointProfiles(outEntryPointHdl, epName, agentTypesAtEntryPoints[epName])
     ##print epName
-outEntryPointHdl.write("\n</entryoints>\n")
+outEntryPointHdl.write("\n</entrypoints>\n")
 
 outTTHdl.write("\n</timetables>")
 

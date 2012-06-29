@@ -109,6 +109,7 @@ class agentParams:
         for wayPoint in wayPointProbabilities:
             if wayPoint[i] > 0:
                 propSum += 1
+                
         if propSum > 0:
             entryPointName = entryPointName.replace(" ", "_")
             outStateHdl.write("<stateType ID=\"" + "entryState_" + self.genericAgentId + "_" + str(entryPointID) + "_" + entryPointName + "\">\n")
@@ -276,7 +277,7 @@ outWayPointHdl.write(indent2 + "<loader type=\"point\">\n")
 outWayPointHdl.write(2 * indent2 + "<geometry>\n")
 outWayPointHdl.write(3 * indent2 + "<source>" + wayPointSourceName + "</source>\n")
 outWayPointHdl.write(3 * indent2 + "<query></query>\n")
-outWayPointHdl.write(3 * indent2 + "<id_field>" + wayPointIdField + "</id_field>\n")
+outWayPointHdl.write(3 * indent2 + "<id_field_id>" + wayPointIdField + "</id_field_id>\n")
 outWayPointHdl.write(2 * indent2 + "</geometry>\n")
 outWayPointHdl.write(indent2 + "</loader>\n\n")
 outWayPointHdl.write("</waypoints>\n\n")
