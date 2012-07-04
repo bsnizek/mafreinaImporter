@@ -1,5 +1,1081 @@
 <stateTypes>
 
+<stateType ID="entryState_advancedHiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10501_Tschierv</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10501_Tschierv">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10501" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10501_Tschierv</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10501_Tschierv">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10501" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10501_Tschierv">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10501_Tschierv</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10501_Tschierv">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10501" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10501_Tschierv">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10501_Tschierv">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10501_Tschierv</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10501_Tschierv">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10501" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11305" probability="10" />  <!-- Lai da Chazfora-->
+        <waypoint id="11607" probability="10" />  <!-- Alp da Munt-->
+        <waypoint id="11201" probability="10" />  <!-- Urezzi-->
+        <waypoint id="11306" probability="10" />  <!-- Valbella-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10503_Fuldera_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10503" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11305" probability="10" />  <!-- Lai da Chazfora-->
+        <waypoint id="11607" probability="10" />  <!-- Alp da Munt-->
+        <waypoint id="11201" probability="10" />  <!-- Urezzi-->
+        <waypoint id="11306" probability="10" />  <!-- Valbella-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10503_Fuldera_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10503" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11305" probability="10" />  <!-- Lai da Chazfora-->
+        <waypoint id="11607" probability="10" />  <!-- Alp da Munt-->
+        <waypoint id="11201" probability="10" />  <!-- Urezzi-->
+        <waypoint id="11306" probability="10" />  <!-- Valbella-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10503_Fuldera_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10503" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11305" probability="10" />  <!-- Lai da Chazfora-->
+        <waypoint id="11607" probability="10" />  <!-- Alp da Munt-->
+        <waypoint id="11201" probability="10" />  <!-- Urezzi-->
+        <waypoint id="11306" probability="10" />  <!-- Valbella-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10503_Fuldera_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10503_Fuldera_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10503_Fuldera_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10503" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10504_Luesai">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10504_Luesai">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10504_Luesai</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10504_Luesai">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10504" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10504_Luesai">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10504_Luesai">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10504_Luesai</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10504_Luesai">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10504" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10504_Luesai">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10504_Luesai">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10504_Luesai</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10504_Luesai">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10504" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10504_Luesai">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="11405" probability="10" />  <!-- Muntet-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10504_Luesai">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10504_Luesai</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10504_Luesai">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10504" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="40" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10505_Valchava_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10505_Valchava_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10505" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="40" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10505_Valchava_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10505_Valchava_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10505" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10505_Valchava_village">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="40" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10505_Valchava_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10505_Valchava_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10505" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10505_Valchava_village">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="40" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10505_Valchava_village">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10505_Valchava_village</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10505_Valchava_village">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10505" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="10" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10506_Sta._Maria</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10506" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="10" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10506_Sta._Maria</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10506" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="10" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10506_Sta._Maria</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10506" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="30" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11607" probability="20" />  <!-- Alp da Munt-->
+        <waypoint id="10507" probability="10" />  <!-- Muestair-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        <waypoint id="11506" probability="10" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10506_Sta._Maria">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10506_Sta._Maria</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10506_Sta._Maria">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10506" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
 <stateType ID="entryState_advancedHiker_10507_Muestair">
     <iconcolour>rgb(250,0,0)</iconcolour>
     <speed>
@@ -208,6 +1284,3302 @@
     <instantiationFunctions>
         <function name="selectWaypoint">
             <waypoint id="10507" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10404_Parkplatz_2078</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10404" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10404_Parkplatz_2078</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10404" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10404_Parkplatz_2078</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10404" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10404_Parkplatz_2078</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10404_Parkplatz_2078">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10404" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11402" probability="10" />  <!-- Minschuns-->
+        <waypoint id="11503" probability="10" />  <!-- Suesom Give-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10501" probability="30" />  <!-- Tschierv-->
+        <waypoint id="11501" probability="40" />  <!-- Lue-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10405_Alp_da_Munt</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10405" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11402" probability="10" />  <!-- Minschuns-->
+        <waypoint id="11503" probability="10" />  <!-- Suesom Give-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10501" probability="30" />  <!-- Tschierv-->
+        <waypoint id="11501" probability="40" />  <!-- Lue-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10405_Alp_da_Munt</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10405" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11402" probability="10" />  <!-- Minschuns-->
+        <waypoint id="11503" probability="10" />  <!-- Suesom Give-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10501" probability="30" />  <!-- Tschierv-->
+        <waypoint id="11501" probability="40" />  <!-- Lue-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10405_Alp_da_Munt</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10405" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11402" probability="10" />  <!-- Minschuns-->
+        <waypoint id="11503" probability="10" />  <!-- Suesom Give-->
+        <waypoint id="11311" probability="10" />  <!-- Plaun da l'Aua-->
+        <waypoint id="10501" probability="30" />  <!-- Tschierv-->
+        <waypoint id="11501" probability="40" />  <!-- Lue-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10405_Alp_da_Munt</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10405_Alp_da_Munt">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10405" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="50" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10201_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10201_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10201" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="50" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10201_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10201_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10201" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10201_Buffalora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="50" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10201_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10201_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10201" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10201_Buffalora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="50" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10201_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10201_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10201_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10201" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10202_Suesom_Give</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10202" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10202_Suesom_Give</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10202" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10202_Suesom_Give</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10202" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10106" probability="30" />  <!-- Fop da Buffalora-->
+        <waypoint id="11402" probability="20" />  <!-- Minschuns-->
+        <waypoint id="11607" probability="30" />  <!-- Alv da Munt-->
+        <waypoint id="11306" probability="20" />  <!-- Valbella-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10202_Suesom_Give">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10202_Suesom_Give</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10202_Suesom_Give">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10202" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10205_Tschierv_Plaz</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10205" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10205_Tschierv_Plaz</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10205" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10205_Tschierv_Plaz</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10205" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10202" probability="20" />  <!-- Ofenpass-->
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="11103" probability="20" />  <!-- Pra Schec-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10205_Tschierv_Plaz</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10205_Tschierv_Plaz">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10205" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="40" />  <!-- Muestair-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10217_Puntweil</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10217_Puntweil">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10217" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="40" />  <!-- Muestair-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10217_Puntweil</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10217_Puntweil">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10217" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10217_Puntweil">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="40" />  <!-- Muestair-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10217_Puntweil</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10217_Puntweil">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10217" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10217_Puntweil">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="40" />  <!-- Muestair-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10217_Puntweil">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10217_Puntweil</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10217_Puntweil">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10217" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="40" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="30" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10218_Platatschas</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10218_Platatschas">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10218" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="40" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="30" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10218_Platatschas</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10218_Platatschas">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10218" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10218_Platatschas">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="40" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="30" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10218_Platatschas</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10218_Platatschas">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10218" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10218_Platatschas">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="10" />  <!-- Valchava-->
+        <waypoint id="10506" probability="40" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="30" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10218_Platatschas">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10218_Platatschas</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10218_Platatschas">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10218" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="30" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="20" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10219_Blockhuette</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10219_Blockhuette">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10219" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="30" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="20" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10219_Blockhuette</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10219_Blockhuette">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10219" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10219_Blockhuette">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="30" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="20" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10219_Blockhuette</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10219_Blockhuette">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10219" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10219_Blockhuette">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10503" probability="10" />  <!-- Fuldera-->
+        <waypoint id="10505" probability="30" />  <!-- Valchava-->
+        <waypoint id="10506" probability="30" />  <!-- Sta. Maria-->
+        <waypoint id="10507" probability="20" />  <!-- Muestair-->
+        <waypoint id="11412" probability="10" />  <!-- Piz Cotschen-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10219_Blockhuette">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10219_Blockhuette</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10219_Blockhuette">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10219" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11413" probability="50" />  <!-- Piz Umbrail-->
+        <waypoint id="11205" probability="10" />  <!-- Lai da Rims-->
+        <waypoint id="10506" probability="20" />  <!-- Sta. Maria-->
+        <waypoint id="10218" probability="10" />  <!-- Platatschas-->
+        <waypoint id="10219" probability="10" />  <!-- Blockhuette-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10221_Umbrailpass</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10221" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11413" probability="50" />  <!-- Piz Umbrail-->
+        <waypoint id="11205" probability="10" />  <!-- Lai da Rims-->
+        <waypoint id="10506" probability="20" />  <!-- Sta. Maria-->
+        <waypoint id="10218" probability="10" />  <!-- Platatschas-->
+        <waypoint id="10219" probability="10" />  <!-- Blockhuette-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10221_Umbrailpass</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10221" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11413" probability="50" />  <!-- Piz Umbrail-->
+        <waypoint id="11205" probability="10" />  <!-- Lai da Rims-->
+        <waypoint id="10506" probability="20" />  <!-- Sta. Maria-->
+        <waypoint id="10218" probability="10" />  <!-- Platatschas-->
+        <waypoint id="10219" probability="10" />  <!-- Blockhuette-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10221_Umbrailpass</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10221" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11413" probability="50" />  <!-- Piz Umbrail-->
+        <waypoint id="11205" probability="10" />  <!-- Lai da Rims-->
+        <waypoint id="10506" probability="20" />  <!-- Sta. Maria-->
+        <waypoint id="10218" probability="10" />  <!-- Platatschas-->
+        <waypoint id="10219" probability="10" />  <!-- Blockhuette-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10221_Umbrailpass">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10221_Umbrailpass</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10221_Umbrailpass">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10221" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10222_Lue">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11308" probability="5" />   <!-- Crappetta-->
+        <waypoint id="10103" probability="5" />   <!-- God da Praditsch-->
+        <waypoint id="11103" probability="20" />  <!-- Lue Pra Schec-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="10202" probability="10" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="20" />  <!-- PP Minschuns-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10501" probability="10" />  <!-- Tschierv-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10222_Lue">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10222_Lue</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10222_Lue">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10222" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10222_Lue">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11308" probability="5" />   <!-- Crappetta-->
+        <waypoint id="10103" probability="5" />   <!-- God da Praditsch-->
+        <waypoint id="11103" probability="20" />  <!-- Lue Pra Schec-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="10202" probability="10" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="20" />  <!-- PP Minschuns-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10501" probability="10" />  <!-- Tschierv-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10222_Lue">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10222_Lue</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10222_Lue">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10222" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10222_Lue">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11308" probability="5" />   <!-- Crappetta-->
+        <waypoint id="10103" probability="5" />   <!-- God da Praditsch-->
+        <waypoint id="11103" probability="20" />  <!-- Lue Pra Schec-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="10202" probability="10" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="20" />  <!-- PP Minschuns-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10501" probability="10" />  <!-- Tschierv-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10222_Lue">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10222_Lue</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10222_Lue">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10222" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10222_Lue">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="11308" probability="5" />   <!-- Crappetta-->
+        <waypoint id="10103" probability="5" />   <!-- God da Praditsch-->
+        <waypoint id="11103" probability="20" />  <!-- Lue Pra Schec-->
+        <waypoint id="10504" probability="10" />  <!-- Luesai-->
+        <waypoint id="10202" probability="10" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="20" />  <!-- PP Minschuns-->
+        <waypoint id="11506" probability="20" />  <!-- Terza-->
+        <waypoint id="10501" probability="10" />  <!-- Tschierv-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10222_Lue">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10222_Lue</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10222_Lue">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10222" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="11506" probability="30" />  <!-- Terza-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10224_Luesai_1656</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10224" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="11506" probability="30" />  <!-- Terza-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10224_Luesai_1656</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10224" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="11506" probability="30" />  <!-- Terza-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10224_Luesai_1656</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10224" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10222" probability="50" />  <!-- Lue-->
+        <waypoint id="11506" probability="30" />  <!-- Terza-->
+        <waypoint id="11502" probability="20" />  <!-- Alp Champatsch-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10224_Luesai_1656">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10224_Luesai_1656</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10224_Luesai_1656">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10224" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10101_Fuorcla_del_Gal</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10101" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10101_Fuorcla_del_Gal</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10101" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10101_Fuorcla_del_Gal</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10101" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10101_Fuorcla_del_Gal</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10101_Fuorcla_del_Gal">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10101" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10102_Passo_Val_Mora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10102" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10102_Passo_Val_Mora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10102" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10102_Passo_Val_Mora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10102" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10102_Passo_Val_Mora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10102_Passo_Val_Mora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10102" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10103_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10103" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10103_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10103" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10103_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10103" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10103_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10103_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10103" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10104_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10104" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10104_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10104" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10104_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10104" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        <waypoint id="10502" probability="25" />  <!-- Lue-->
+        <waypoint id="10202" probability="65" />  <!-- Ofenpass-->
+        <waypoint id="10405" probability="10" />  <!-- PP Minschuns-->
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10104_Tamangur_Dadora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10104_Tamangur_Dadora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10104" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedHiker_10106_Fop_da_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>5</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10106" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyHiker_10106_Fop_da_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyHiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>3</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10106" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_advancedBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_advancedBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_advancedBiker_10106_Fop_da_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_advancedBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>16</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10106" probability="100"/>
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="entryState_easyBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,250,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+        </function>
+    </instantiationFunctions>
+</stateType>
+
+<stateType ID="atWayPointState_easyBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(250,0,255)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <categoricTransitionFunctions>
+        <function name="waitTime">
+            <parameter>30</parameter>
+            <toState>Exit_easyBiker_10106_Fop_da_Buffalora</toState>
+        </function>
+    </categoricTransitionFunctions>
+</stateType>
+
+<stateType ID="exitState_easyBiker_10106_Fop_da_Buffalora">
+    <iconcolour>rgb(0,0,0)</iconcolour>
+    <speed>
+        <alpha>10</alpha>
+        <beta>0</beta>
+    </speed>
+    <headOnFactor>1.0</headOnFactor>
+    <agentMode>network</agentMode>
+    <type>normal</type>
+    <instantiationFunctions>
+        <function name="selectWaypoint">
+            <waypoint id="10106" probability="100"/>
         </function>
     </instantiationFunctions>
 </stateType>

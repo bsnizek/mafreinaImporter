@@ -104,13 +104,19 @@ class agentParams:
 
     def writeStates(self, outStateHdl, entryPointID, entryPointName, wayPointProbabilities, countFunctions):
         ## Entry-/waypoint probability states
+        
+        if entryPointID == 10101:
+            pass
+            # import pdb;pdb.set_trace()
+        
         i = 2
         propSum = 0
         for wayPoint in wayPointProbabilities:
             if wayPoint[i] > 0:
                 propSum += 1
                 
-        if propSum > 0:
+        if 0 == 0:
+        #if propSum > 0:
             entryPointName = entryPointName.replace(" ", "_")
             outStateHdl.write("<stateType ID=\"" + "entryState_" + self.genericAgentId + "_" + str(entryPointID) + "_" + entryPointName + "\">\n")
             outStateHdl.write(indent2 + "<iconcolour>" + self.iconColor + "</iconcolour>\n")
@@ -134,6 +140,7 @@ class agentParams:
             outStateHdl.write("</stateType>\n\n") 
         i += 1
         ## Pause at waypoint behaviour
+        entryPointName = entryPointName.replace(" ", "_")
         outStateHdl.write("<stateType ID=\"" + "atWayPointState_" + self.genericAgentId + "_" + str(entryPointID) + "_" + entryPointName + "\">\n")
         outStateHdl.write(indent2 + "<iconcolour>" + self.iconColorPause + "</iconcolour>\n")
         outStateHdl.write(indent2 + "<speed>\n")
@@ -206,6 +213,8 @@ countEntryPoints = 1
 countFunctions = 1
 entryPointName = "TODO"
 
+entrypointID__waypointProbabilities = {}
+
 #Reading in-file (waypoint distribution)
 while not EOF:
     EOF = xx.readLine()
@@ -247,6 +256,9 @@ while not EOF:
         wayPoints = []
         headerLine = True
         rowLine = False
+        
+        entrypointID__waypointProbabilities[entryPointID] = wayPointProbabilities
+        
     # New header line (entry point) found
     if xx.firstInt and headerLine:
         entryPointID = xx.firstInt
@@ -266,9 +278,12 @@ outAgentHdl.write("</agents>\n\n")
                          
 # Writing State Types
 outStateHdl.write("<stateTypes>\n\n")
-for key in agentTypes.keys():
-    agentTypes[key].writeStates(outStateHdl, entryPointID, entryPointName, wayPointProbabilities, countFunctions)
-    countAgentTypes += len(agentTypes[key].initiateStates)
+
+print entryPointListAll.keys()
+for entryPointID in entryPointListAll.keys():
+    for key in agentTypes.keys():
+        agentTypes[key].writeStates(outStateHdl, entryPointID, entryPointListAll.get(entryPointID), entrypointID__waypointProbabilities.get(entryPointID), countFunctions)
+        countAgentTypes += len(agentTypes[key].initiateStates)
 outStateHdl.write("</stateTypes>\n\n")
 
 # Writing Way Points
