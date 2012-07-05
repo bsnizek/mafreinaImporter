@@ -13,19 +13,19 @@
         <geometry_id>10202</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10202_Suesom_Give"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10202_Suesom_Give"/>
                 <timetableReference ref="tt_easyHiker_10202_Suesom_Give" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10202_Suesom_Give"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10202_Suesom_Give"/>
                 <timetableReference ref="tt_advancedHiker_10202_Suesom_Give" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10202_Suesom_Give"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10202_Suesom_Give"/>
                 <timetableReference ref="tt_easyBiker_10202_Suesom_Give" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10202_Suesom_Give"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10202_Suesom_Give"/>
                 <timetableReference ref="tt_advancedBiker_10202_Suesom_Give" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -36,15 +36,15 @@
         <geometry_id>10209</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10209_Furom"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10209_Furom"/>
                 <timetableReference ref="tt_advancedHiker_10209_Furom" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10209_Furom"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10209_Furom"/>
                 <timetableReference ref="tt_easyBiker_10209_Furom" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10209_Furom"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10209_Furom"/>
                 <timetableReference ref="tt_advancedBiker_10209_Furom" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -55,19 +55,19 @@
         <geometry_id>10214</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10214_Muestair_Sued"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10214_Muestair_Sued"/>
                 <timetableReference ref="tt_easyHiker_10214_Muestair_Sued" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10214_Muestair_Sued"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10214_Muestair_Sued"/>
                 <timetableReference ref="tt_advancedHiker_10214_Muestair_Sued" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10214_Muestair_Sued"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10214_Muestair_Sued"/>
                 <timetableReference ref="tt_easyBiker_10214_Muestair_Sued" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10214_Muestair_Sued"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10214_Muestair_Sued"/>
                 <timetableReference ref="tt_advancedBiker_10214_Muestair_Sued" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -78,11 +78,11 @@
         <geometry_id>10218</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10218_Platatschas"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10218_Platatschas"/>
                 <timetableReference ref="tt_easyHiker_10218_Platatschas" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10218_Platatschas"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10218_Platatschas"/>
                 <timetableReference ref="tt_advancedHiker_10218_Platatschas" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -93,19 +93,19 @@
         <geometry_id>10505</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10505_Valchava_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10505_Valchava_village"/>
                 <timetableReference ref="tt_easyHiker_10505_Valchava_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10505_Valchava_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10505_Valchava_village"/>
                 <timetableReference ref="tt_advancedHiker_10505_Valchava_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10505_Valchava_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10505_Valchava_village"/>
                 <timetableReference ref="tt_easyBiker_10505_Valchava_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10505_Valchava_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10505_Valchava_village"/>
                 <timetableReference ref="tt_advancedBiker_10505_Valchava_village" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -116,19 +116,19 @@
         <geometry_id>10506</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10506_Sta._Maria"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10506_Sta._Maria"/>
                 <timetableReference ref="tt_easyHiker_10506_Sta._Maria" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10506_Sta._Maria"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10506_Sta._Maria"/>
                 <timetableReference ref="tt_advancedHiker_10506_Sta._Maria" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10506_Sta._Maria"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10506_Sta._Maria"/>
                 <timetableReference ref="tt_easyBiker_10506_Sta._Maria" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10506_Sta._Maria"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10506_Sta._Maria"/>
                 <timetableReference ref="tt_advancedBiker_10506_Sta._Maria" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -139,15 +139,15 @@
         <geometry_id>10404</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10404_Parkplatz_2078"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10404_Parkplatz_2078"/>
                 <timetableReference ref="tt_easyHiker_10404_Parkplatz_2078" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10404_Parkplatz_2078"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10404_Parkplatz_2078"/>
                 <timetableReference ref="tt_advancedHiker_10404_Parkplatz_2078" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10404_Parkplatz_2078"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10404_Parkplatz_2078"/>
                 <timetableReference ref="tt_easyBiker_10404_Parkplatz_2078" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -158,19 +158,19 @@
         <geometry_id>10221</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10221_Umbrailpass"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10221_Umbrailpass"/>
                 <timetableReference ref="tt_easyHiker_10221_Umbrailpass" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10221_Umbrailpass"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10221_Umbrailpass"/>
                 <timetableReference ref="tt_advancedHiker_10221_Umbrailpass" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10221_Umbrailpass"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10221_Umbrailpass"/>
                 <timetableReference ref="tt_easyBiker_10221_Umbrailpass" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10221_Umbrailpass"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10221_Umbrailpass"/>
                 <timetableReference ref="tt_advancedBiker_10221_Umbrailpass" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -181,15 +181,15 @@
         <geometry_id>10203</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10203_Aintasom_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10203_Aintasom_Tschierv"/>
                 <timetableReference ref="tt_easyHiker_10203_Aintasom_Tschierv" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10203_Aintasom_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10203_Aintasom_Tschierv"/>
                 <timetableReference ref="tt_advancedHiker_10203_Aintasom_Tschierv" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10203_Aintasom_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10203_Aintasom_Tschierv"/>
                 <timetableReference ref="tt_easyBiker_10203_Aintasom_Tschierv" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -200,11 +200,11 @@
         <geometry_id>10104</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10104_Tamangur_Dadora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10104_Tamangur_Dadora"/>
                 <timetableReference ref="tt_advancedHiker_10104_Tamangur_Dadora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10104_Tamangur_Dadora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10104_Tamangur_Dadora"/>
                 <timetableReference ref="tt_advancedBiker_10104_Tamangur_Dadora" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -215,19 +215,19 @@
         <geometry_id>10504</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10504_Luesai"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10504_Luesai"/>
                 <timetableReference ref="tt_easyHiker_10504_Luesai" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10504_Luesai"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10504_Luesai"/>
                 <timetableReference ref="tt_advancedHiker_10504_Luesai" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10504_Luesai"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10504_Luesai"/>
                 <timetableReference ref="tt_easyBiker_10504_Luesai" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10504_Luesai"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10504_Luesai"/>
                 <timetableReference ref="tt_advancedBiker_10504_Luesai" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -238,15 +238,15 @@
         <geometry_id>10501</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10501_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10501_Tschierv"/>
                 <timetableReference ref="tt_easyHiker_10501_Tschierv" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10501_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10501_Tschierv"/>
                 <timetableReference ref="tt_advancedHiker_10501_Tschierv" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10501_Tschierv"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10501_Tschierv"/>
                 <timetableReference ref="tt_easyBiker_10501_Tschierv" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -257,11 +257,11 @@
         <geometry_id>10102</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10102_Passo_Val_Mora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10102_Passo_Val_Mora"/>
                 <timetableReference ref="tt_advancedHiker_10102_Passo_Val_Mora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10102_Passo_Val_Mora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10102_Passo_Val_Mora"/>
                 <timetableReference ref="tt_advancedBiker_10102_Passo_Val_Mora" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -272,19 +272,19 @@
         <geometry_id>10201</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10201_Buffalora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10201_Buffalora"/>
                 <timetableReference ref="tt_easyHiker_10201_Buffalora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10201_Buffalora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10201_Buffalora"/>
                 <timetableReference ref="tt_advancedHiker_10201_Buffalora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10201_Buffalora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10201_Buffalora"/>
                 <timetableReference ref="tt_easyBiker_10201_Buffalora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10201_Buffalora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10201_Buffalora"/>
                 <timetableReference ref="tt_advancedBiker_10201_Buffalora" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -295,19 +295,19 @@
         <geometry_id>10222</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10222_Lue"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10222_Lue"/>
                 <timetableReference ref="tt_easyHiker_10222_Lue" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10222_Lue"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10222_Lue"/>
                 <timetableReference ref="tt_advancedHiker_10222_Lue" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10222_Lue"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10222_Lue"/>
                 <timetableReference ref="tt_easyBiker_10222_Lue" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10222_Lue"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10222_Lue"/>
                 <timetableReference ref="tt_advancedBiker_10222_Lue" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -318,11 +318,11 @@
         <geometry_id>10103</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10103_Tamangur_Dadora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10103_Tamangur_Dadora"/>
                 <timetableReference ref="tt_advancedHiker_10103_Tamangur_Dadora" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10103_Tamangur_Dadora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10103_Tamangur_Dadora"/>
                 <timetableReference ref="tt_advancedBiker_10103_Tamangur_Dadora" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -333,19 +333,19 @@
         <geometry_id>10507</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10507_Muestair"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10507_Muestair"/>
                 <timetableReference ref="tt_easyHiker_10507_Muestair" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10507_Muestair"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10507_Muestair"/>
                 <timetableReference ref="tt_advancedHiker_10507_Muestair" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10507_Muestair"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10507_Muestair"/>
                 <timetableReference ref="tt_easyBiker_10507_Muestair" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10507_Muestair"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10507_Muestair"/>
                 <timetableReference ref="tt_advancedBiker_10507_Muestair" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -356,19 +356,19 @@
         <geometry_id>10205</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10205_Tschierv_Plaz"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10205_Tschierv_Plaz"/>
                 <timetableReference ref="tt_easyHiker_10205_Tschierv_Plaz" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10205_Tschierv_Plaz"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10205_Tschierv_Plaz"/>
                 <timetableReference ref="tt_advancedHiker_10205_Tschierv_Plaz" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10205_Tschierv_Plaz"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10205_Tschierv_Plaz"/>
                 <timetableReference ref="tt_easyBiker_10205_Tschierv_Plaz" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10205_Tschierv_Plaz"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10205_Tschierv_Plaz"/>
                 <timetableReference ref="tt_advancedBiker_10205_Tschierv_Plaz" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -379,19 +379,19 @@
         <geometry_id>10217</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10217_Puntweil"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10217_Puntweil"/>
                 <timetableReference ref="tt_easyHiker_10217_Puntweil" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10217_Puntweil"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10217_Puntweil"/>
                 <timetableReference ref="tt_advancedHiker_10217_Puntweil" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10217_Puntweil"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10217_Puntweil"/>
                 <timetableReference ref="tt_easyBiker_10217_Puntweil" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10217_Puntweil"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10217_Puntweil"/>
                 <timetableReference ref="tt_advancedBiker_10217_Puntweil" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -402,11 +402,11 @@
         <geometry_id>10219</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10219_Blockhuette"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10219_Blockhuette"/>
                 <timetableReference ref="tt_easyHiker_10219_Blockhuette" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10219_Blockhuette"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10219_Blockhuette"/>
                 <timetableReference ref="tt_advancedHiker_10219_Blockhuette" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -417,19 +417,19 @@
         <geometry_id>10213</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10213_Sielva"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10213_Sielva"/>
                 <timetableReference ref="tt_easyHiker_10213_Sielva" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10213_Sielva"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10213_Sielva"/>
                 <timetableReference ref="tt_advancedHiker_10213_Sielva" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10213_Sielva"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10213_Sielva"/>
                 <timetableReference ref="tt_easyBiker_10213_Sielva" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10213_Sielva"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10213_Sielva"/>
                 <timetableReference ref="tt_advancedBiker_10213_Sielva" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -440,19 +440,19 @@
         <geometry_id>10224</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10224_Luesai_1656"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10224_Luesai_1656"/>
                 <timetableReference ref="tt_easyHiker_10224_Luesai_1656" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10224_Luesai_1656"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10224_Luesai_1656"/>
                 <timetableReference ref="tt_advancedHiker_10224_Luesai_1656" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10224_Luesai_1656"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10224_Luesai_1656"/>
                 <timetableReference ref="tt_easyBiker_10224_Luesai_1656" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10224_Luesai_1656"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10224_Luesai_1656"/>
                 <timetableReference ref="tt_advancedBiker_10224_Luesai_1656" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -463,7 +463,7 @@
         <geometry_id>10106</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10106_Fop_da_Buffalora"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10106_Fop_da_Buffalora"/>
                 <timetableReference ref="tt_advancedHiker_10106_Fop_da_Buffalora" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -474,11 +474,11 @@
         <geometry_id>10101</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10101_Fuorcla_del_Gal"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10101_Fuorcla_del_Gal"/>
                 <timetableReference ref="tt_advancedHiker_10101_Fuorcla_del_Gal" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10101_Fuorcla_del_Gal"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10101_Fuorcla_del_Gal"/>
                 <timetableReference ref="tt_advancedBiker_10101_Fuorcla_del_Gal" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -489,19 +489,19 @@
         <geometry_id>10405</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10405_Alp_da_Munt"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10405_Alp_da_Munt"/>
                 <timetableReference ref="tt_easyHiker_10405_Alp_da_Munt" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10405_Alp_da_Munt"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10405_Alp_da_Munt"/>
                 <timetableReference ref="tt_advancedHiker_10405_Alp_da_Munt" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10405_Alp_da_Munt"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10405_Alp_da_Munt"/>
                 <timetableReference ref="tt_easyBiker_10405_Alp_da_Munt" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10405_Alp_da_Munt"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10405_Alp_da_Munt"/>
                 <timetableReference ref="tt_advancedBiker_10405_Alp_da_Munt" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -512,19 +512,19 @@
         <geometry_id>10210</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10210_Valchava_West"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10210_Valchava_West"/>
                 <timetableReference ref="tt_easyHiker_10210_Valchava_West" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10210_Valchava_West"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10210_Valchava_West"/>
                 <timetableReference ref="tt_advancedHiker_10210_Valchava_West" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10210_Valchava_West"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10210_Valchava_West"/>
                 <timetableReference ref="tt_easyBiker_10210_Valchava_West" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10210_Valchava_West"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10210_Valchava_West"/>
                 <timetableReference ref="tt_advancedBiker_10210_Valchava_West" scaleFactor="1.0"/>
             </profile>
         </profiles>
@@ -535,22 +535,22 @@
         <geometry_id>10503</geometry_id>
         <profiles>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyHiker_10503_Fuldera_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyHiker_10503_Fuldera_village"/>
                 <timetableReference ref="tt_easyHiker_10503_Fuldera_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedHiker_10503_Fuldera_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedHiker_10503_Fuldera_village"/>
                 <timetableReference ref="tt_advancedHiker_10503_Fuldera_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="easyBiker_10503_Fuldera_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_easyBiker_10503_Fuldera_village"/>
                 <timetableReference ref="tt_easyBiker_10503_Fuldera_village" scaleFactor="1.0"/>
             </profile>
             <profile>
-                <agentDistribution pctofentries="100.0" agent_type="advancedBiker_10503_Fuldera_village"/>
+                <agentDistribution pctofentries="100.0" agent_type="agent_advancedBiker_10503_Fuldera_village"/>
                 <timetableReference ref="tt_advancedBiker_10503_Fuldera_village" scaleFactor="1.0"/>
             </profile>
         </profiles>
 </entrypoint>
 
-</entryoints>
+</entrypoints>

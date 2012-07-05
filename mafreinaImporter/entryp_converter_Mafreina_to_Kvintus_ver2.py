@@ -15,7 +15,7 @@ def writeEntryPointProfiles(outEntryPointHdl, entryPointName, agentTypes):
             n = Normalizer()
             agent = n.normalize(agent);
             outEntryPointHdl.write(3 * indent2 + "<profile>\n")
-            outEntryPointHdl.write(4 * indent2 + "<agentDistribution pctofentries=\"100.0\" agent_type=\"" + agent + "\"/>\n")
+            outEntryPointHdl.write(4 * indent2 + "<agentDistribution pctofentries=\"100.0\" agent_type=\"agent_" + agent + "\"/>\n")
             outEntryPointHdl.write(4 * indent2 + "<timetableReference ref=\"tt_" + agent + "\" scaleFactor=\"1.0\"/>\n")
             outEntryPointHdl.write(3 * indent2 + "</profile>\n")
         outEntryPointHdl.write(2 * indent2 + "</profiles>\n")
